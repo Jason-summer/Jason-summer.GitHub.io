@@ -1,0 +1,262 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>在国内如何正常（离线）使用 Android Studio，停止 Gandle snyc 🧐？ | 夏元素的避风塘</title>
+<link rel="shortcut icon" href="https://Jason-summer.github.io/favicon.ico?v=1585904308456">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://Jason-summer.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="在国内如何正常（离线）使用 Android Studio，停止 Gandle snyc 🧐？ | 夏元素的避风塘 - Atom Feed" href="https://Jason-summer.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+@牛顿：我和那些孩童没有什么区别，我不过是一个在沙滩上拾起贝壳研究的孩子，在真理之海面前瑟瑟发抖。
+
+建立你的第一个工程（project）
+新建工程
+
+请注意：在 Android Studio 4.0 预览版中我无法启动离线模式，所以接下..." />
+    <meta name="keywords" content="开发" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Jason-summer.github.io">
+  <img class="avatar" src="https://Jason-summer.github.io/images/avatar.png?v=1585904308456" alt="">
+  </a>
+  <h1 class="site-title">
+    夏元素的避风塘
+  </h1>
+  <p class="site-description">
+    理想生活+
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/Jason-summer" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              在国内如何正常（离线）使用 Android Studio，停止 Gandle snyc 🧐？
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-04-03
+              </span>
+              <span>
+                4 min read
+              </span>
+              
+                <a href="https://Jason-summer.github.io/tag/itPlsg2cI/" class="post-tag">
+                  # 开发
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://Jason-summer.github.io/post-images/how-to-use-android-studio-offline.jpg" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <blockquote>
+<p>@牛顿：我和那些孩童没有什么区别，我不过是一个在沙滩上拾起贝壳研究的孩子，在真理之海面前瑟瑟发抖。</p>
+</blockquote>
+<h2 id="建立你的第一个工程project">建立你的第一个工程（project）</h2>
+<h3 id="新建工程">新建工程</h3>
+<ul>
+<li>请注意：在 Android Studio 4.0 预览版中我无法启动离线模式，所以接下来的内容基于 3.5.3 版本。<br>
+包名：用网址以区分应用程序，请把 example.android.com 改成你自己的网站。<br>
+语言：请将 Kotlin 改为 Java。使用 Kotlin 开发 Android 应用，使用 Kotlin 更快地编写更出色的 Android 应用。Kotlin 是一种静态类型的现代编程语言，不仅可以帮助您提高工作效率，而且还能让开发者工作起来更开心。<br>
+最小SDK等级：你想创建的应用程序最低支持的安卓版本，请注意，如果SDK太小你可能无法使用很多新功能。<a href="http://en.wikipedia.org/wiki/Android_version_history">Android 版本历史 | 维基百科</a></li>
+</ul>
+<p>这个工程文件涵盖了 Java、XML、图片、音频之类的各种文件。</p>
+<h3 id="解决来自-gradle-奇奇怪怪的问题难点">解决来自 gradle 奇奇怪怪的问题（难点）</h3>
+<p>第一次使用时 gradle 需要同步一段时间，有点久。你可以看到下面这个通知栏，当它不再有一个圈转来转去的时候就完成了，这时 Build 栏里也没有圈圈了，于是我们可以把它关掉。左边是类似于资源管理器的树状文件结构，请找到并双击 app→res→layout→activity_mail.xml，把右边的更新内容也关掉，就可以看到 Preview 了。中间是类似于记事本的编辑区，请点击下方的 Text 查看和编辑代码。如果你遇到有关 gradle 的问题，这里有一些解决方法。来源：https://cloud.tencent.com/developer/article/1523424</p>
+<h2 id="开始吧在你的手机或者模拟器上运行难点">开始吧！在你的手机或者模拟器上运行（难点）</h2>
+<h3 id="复习一些知识">复习一些知识</h3>
+<p>xmlns 用于声明以下内容适用于安卓，因为 XML 语言也运用于制作网页或者其他功能。http://stackoverflow.com/questions/1181888/what-does-xmlns-in-xml-mean<br>
+setting→Editor→Font 调整编辑器的字体和大小</p>
+<ul>
+<li>这里给你一点建议。为了流畅的使用 Android Studio，最好把其他程序都关掉，将电脑（尤其是笔记本）调整至高性能模式。然后在手机上查看此教程。<br>
+然后让我们在模拟器或者手机上运行吧。</li>
+<li>小建议：如果你的电脑卡得出翔，那最好还是不要使用模拟器了，用手机吧。比如我用三星a60，因为我的电脑是差不多十年前的ASUS，尽管4G内存，处理器也力不从心。</li>
+</ul>
+<h3 id="在手机上运行">在手机上运行</h3>
+<p>请参考：https://developer.android.google.cn/studio/run/device<br>
+确认绿色的运行左边的框里写的是你的手机型号，那表示连接成功了。<br>
+成功运行！<br>
+如果没有成功也不要灰心，试着在网上找找答案。有一种说法是要在设置的Android SDK 中安装手机对应的版本，但是我的安卓9也没安装啊😂，反而是装了安卓10。还有一种说法是要到设备管理器中找到 ADB 设备并右键更新。</p>
+<ul>
+<li>我的运行方式：安装三星的驱动，打开USB调试，连上电脑一会儿就好了😊。<br>
+尝试完成后请别忘记中止。</li>
+</ul>
+<h3 id="在模拟器上运行">在模拟器上运行</h3>
+<p>操作指南：https://developer.android.google.cn/studio/run/emulator</p>
+<h2 id="校检后补充一段时间后">校检后补充（一段时间后）</h2>
+<p>事实证明 Android Studio 4.0 Preview 也是可以使用离线模式的。但是 4.0 的代码补全有一些问题，它补全的不是接下来的属性名，而是属性的属性的属性……（一直到底那一种）所以目前不是很方便使用。</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%BB%BA%E7%AB%8B%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%B7%A5%E7%A8%8Bproject">建立你的第一个工程（project）</a>
+<ul>
+<li><a href="#%E6%96%B0%E5%BB%BA%E5%B7%A5%E7%A8%8B">新建工程</a></li>
+<li><a href="#%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AA-gradle-%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA%E7%9A%84%E9%97%AE%E9%A2%98%E9%9A%BE%E7%82%B9">解决来自 gradle 奇奇怪怪的问题（难点）</a></li>
+</ul>
+</li>
+<li><a href="#%E5%BC%80%E5%A7%8B%E5%90%A7%E5%9C%A8%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E6%88%96%E8%80%85%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8A%E8%BF%90%E8%A1%8C%E9%9A%BE%E7%82%B9">开始吧！在你的手机或者模拟器上运行（难点）</a>
+<ul>
+<li><a href="#%E5%A4%8D%E4%B9%A0%E4%B8%80%E4%BA%9B%E7%9F%A5%E8%AF%86">复习一些知识</a></li>
+<li><a href="#%E5%9C%A8%E6%89%8B%E6%9C%BA%E4%B8%8A%E8%BF%90%E8%A1%8C">在手机上运行</a></li>
+<li><a href="#%E5%9C%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E4%B8%8A%E8%BF%90%E8%A1%8C">在模拟器上运行</a></li>
+</ul>
+</li>
+<li><a href="#%E6%A0%A1%E6%A3%80%E5%90%8E%E8%A1%A5%E5%85%85%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%E5%90%8E">校检后补充（一段时间后）</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://Jason-summer.github.io/post/the-first-time-meet-you/">
+              <h3 class="post-title">
+                The First Time Meet You
+              </h3>
+            </a>
+          </div>
+        
+
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'd58ad16ad66ee00d3bc5',
+    clientSecret: 'ac26e1eeae0d0cb7e660f5cfe7d5139eea8fb3fd',
+    repo: 'Jason-summer.github.io',
+    owner: 'Jason-summer',
+    admin: ['Jason-summer'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://Jason-summer.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
