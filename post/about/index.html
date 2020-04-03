@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>关于 | 夏元素的避风塘</title>
-<link rel="shortcut icon" href="https://Jason-summer.github.io/favicon.ico?v=1585893341529">
+<link rel="shortcut icon" href="https://Jason-summer.github.io/favicon.ico?v=1585893809990">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://Jason-summer.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="关于 | 夏元素的避风塘 - Atom Feed" href="https://Jason-summer.github.io/atom.xml">
@@ -29,7 +29,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://Jason-summer.github.io">
-  <img class="avatar" src="https://Jason-summer.github.io/images/avatar.png?v=1585893341529" alt="">
+  <img class="avatar" src="https://Jason-summer.github.io/images/avatar.png?v=1585893809990" alt="">
   </a>
   <h1 class="site-title">
     夏元素的避风塘
@@ -146,6 +146,32 @@
           </div>
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'd58ad16ad66ee00d3bc5',
+    clientSecret: 'ac26e1eeae0d0cb7e660f5cfe7d5139eea8fb3fd',
+    repo: 'Gridea Reviews',
+    owner: 'jason-summer',
+    admin: ['jason-summer'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
