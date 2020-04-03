@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Jason-summer.github.io</id>
     <title>夏元素的避风塘</title>
-    <updated>2020-04-03T06:44:05.813Z</updated>
+    <updated>2020-04-03T07:25:11.768Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Jason-summer.github.io"/>
     <link rel="self" href="https://Jason-summer.github.io/atom.xml"/>
@@ -10,6 +10,56 @@
     <logo>https://Jason-summer.github.io/images/avatar.png</logo>
     <icon>https://Jason-summer.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 夏元素的避风塘</rights>
+    <entry>
+        <title type="html"><![CDATA[The First Time Meet You]]></title>
+        <id>https://Jason-summer.github.io/post/the-first-time-meet-you/</id>
+        <link href="https://Jason-summer.github.io/post/the-first-time-meet-you/">
+        </link>
+        <updated>2020-04-03T06:48:48.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="content">📕CONTENT</h2>
+<p>It was a sunny day when Conner took his first step on the island, who as a journalist had been working for a news company for a while. This infamous island had been told by the others thousands of times to him, which made him bored.</p>
+<p>&quot;I will never <strong>be charmed by</strong><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> those sick guys' tricks.&quot; He thought about it since long before the boat he took arrived there. As he went along the path from the port where he went off, unexpectedly, he saw the man, who he confirmed immediately that was the one waiting for him, walking towards him.</p>
+<p>&quot;Hi, glad to see you. I'm Joe and you must be Conner yet?&quot;</p>
+<p>Conner looked him up and down for a while, then, in unpleasant, said &quot;I'm Conner. Meet you now.&quot; At the same time, he was wondering how can this young man <strong>assimilate</strong><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup> him into his similar...</p>
+<p><strong>Interrupting</strong><sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> his <strong>tremendous</strong><sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup> imagination, the man hugged him with his left arm surrounding him along with his right hand patted the back of Conner. It was a bit uncomfortable, mentally, but in physics, it's some kinds of mild, then levelled up to a strange feeling, rather than saying pleased he thought.</p>
+<p>It was a hard time, for him. Joe hugged him tightly while the right hand was still in its position. Now he saw he was so blind that he thought the man was weak. It was just some seconds that he couldn't bear. Out of expectation, he never thought it would happen <strong>as a flash</strong><sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup>.</p>
+<p><strong>Right before</strong><sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup> Conner was prepared for arguing, or in some points, explaining, Joe had left him and went in a direction without a word. &quot;Come on! You gonna love it here.&quot; Together with a wink. No way to escape, Conner had to follow him and trotted towards the cabin.</p>
+<h2 id="do-you-know">❓DO YOU KNOW</h2>
+<blockquote>
+<p>You can use <code>&lt;div STYLE=&quot;page-break-after: always;&quot;&gt;&lt;/div&gt;</code> to add a new page when you try to export a Markdown.</p>
+</blockquote>
+<h2 id="notes">💡NOTES</h2>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>be charmed by 被……迷惑 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>assimilate v.同化 <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>interrupt v.打断 <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p>tremendous adj.巨大的，极好的 <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p>as a flash 快如闪电 <a href="#fnref5" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn6" class="footnote-item"><p>right before 正当 <a href="#fnref6" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[告示]评论系统已经恢复正常]]></title>
+        <id>https://Jason-summer.github.io/post/review-system-is-stopping/</id>
+        <link href="https://Jason-summer.github.io/post/review-system-is-stopping/">
+        </link>
+        <updated>2020-04-03T06:45:42.000Z</updated>
+        <content type="html"><![CDATA[<p>之前其实是 Gitalk 我没搞好嘿嘿嘿🤭。</p>
+<p>我认为应该是之前配置不正确，主要就是大小写没注意，然后就疯狂更改 GitHub 和 Gridea 的配置，可能是访问过于频繁导致被限流，让我等一段时间再访问吧。</p>
+<p>参考文档：……</p>
+<p>草字头，我尝试着发评论，又是 Error: Network Error. 不过刚刚我是登陆上 GitHub 了的，现在又被顶下来了，可能还是网络或者访问流量的问题。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
         <id>https://Jason-summer.github.io/post/about/</id>
