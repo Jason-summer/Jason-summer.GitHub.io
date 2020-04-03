@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Jason-summer.github.io</id>
     <title>夏元素的避风塘</title>
-    <updated>2020-04-03T05:36:48.536Z</updated>
+    <updated>2020-04-03T05:46:34.889Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Jason-summer.github.io"/>
     <link rel="self" href="https://Jason-summer.github.io/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://Jason-summer.github.io/images/avatar.png</logo>
     <icon>https://Jason-summer.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 夏元素的避风塘</rights>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://Jason-summer.github.io/post/about/</id>
+        <link href="https://Jason-summer.github.io/post/about/">
+        </link>
+        <updated>2020-04-03T05:46:13.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="这啥玩意儿">🏠 这啥玩意儿？</h2>
+<p>这里是一位高二学生的个人博客😀。</p>
+<h2 id="你-tm-是谁啊">👨‍💻 你 tm 是谁啊？</h2>
+<p>网名夏元素，又名 SummerElement.</p>
+<h2 id="哦那你都做啥">⛹ 哦……那你都做啥？</h2>
+<p>有很多呀，可是都没什么精通的……我喜欢做设计🎨、喜欢搞编程开发🛠、喜欢游泳🏊‍、‍喜欢吸猫🐱、喜欢冒险🎮、喜欢一个人跑步🏃‍、喜欢一个人放松思绪😌……<br>
+嗯~ o(<em>￣▽￣</em>)o总体归结起来就是——我喜欢探索世界🧐。</p>
+<h2 id="我要怎么给你寄刀片">📬 我要怎么给你寄刀片？</h2>
+<p>关注我的 <a href="https://github.com/Jason-summer">GitHub</a> 吧😘。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://Jason-summer.github.io/post/hello-gridea/</id>
