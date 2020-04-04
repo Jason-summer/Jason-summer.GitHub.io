@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Jason-summer.github.io</id>
     <title>夏元素的避风塘</title>
-    <updated>2020-04-04T05:20:23.593Z</updated>
+    <updated>2020-04-04T06:47:02.533Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Jason-summer.github.io"/>
     <link rel="self" href="https://Jason-summer.github.io/atom.xml"/>
@@ -10,6 +10,79 @@
     <logo>https://Jason-summer.github.io/images/avatar.png</logo>
     <icon>https://Jason-summer.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 夏元素的避风塘</rights>
+    <entry>
+        <title type="html"><![CDATA[如何在 Markdown 中插入视频和音频]]></title>
+        <id>https://Jason-summer.github.io/post/how-to-add-audios-and-videos-to-your-markdown/</id>
+        <link href="https://Jason-summer.github.io/post/how-to-add-audios-and-videos-to-your-markdown/">
+        </link>
+        <updated>2020-04-04T06:11:24.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>本篇文章的受众是那些没有 xml 基础，并且像我一样🤣只会基础 Markdown 的小白。</p>
+</blockquote>
+<h2 id="插入音乐">插入音乐</h2>
+<h3 id="方法一-使用-html">方法一、使用 html</h3>
+<audio id="audio" controls="" preload="none">
+      <source id="m4a" src="https://m701.music.126.net/20200404143533/acbed1605c603887dd9a181ffd6d57d4/jdyyaac/005a/545e/0009/70f3057ebac49b803e727c14ce6e5a83.m4a">
+      </audio>
+<pre><code class="language-xml">&lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
+      &lt;source id=&quot;m4a&quot; src=&quot;https://m701.music.126.net/20200404143533/acbed1605c603887dd9a181ffd6d57d4/jdyyaac/005a/545e/0009/70f3057ebac49b803e727c14ce6e5a83.m4a&quot;&gt;
+      &lt;/audio&gt;
+</code></pre>
+<p><code>&lt;audio&gt;</code>标签常用属性如下表</p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>autoplay</td>
+<td>autoplay</td>
+<td>添加该属性后，音频会自动播放</td>
+</tr>
+<tr>
+<td>controls</td>
+<td>controls</td>
+<td>设置后，显示控件，如播放按钮、音量</td>
+</tr>
+<tr>
+<td>loop</td>
+<td>loop</td>
+<td>添加该属性后，当音频播放结束后会重新开始播放</td>
+</tr>
+<tr>
+<td>preload</td>
+<td>preload</td>
+<td>音频显示页面加载，准备播放，如已添加autoplay,则忽略该属性</td>
+</tr>
+<tr>
+<td>src</td>
+<td>url</td>
+<td>播放音频的URL（地址）。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="方法二-使用各个音乐平台提供的插件">方法二、使用各个音乐平台提供的插件</h3>
+<p>网易云音乐提供了将音乐生成外链（某些版权歌曲不可）的插件。访问网易云的网页，在某首歌曲的详情页有<strong>生成外链播放器</strong>，接下来只要把获得的代码插入 Markdown 中就行了。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=27955658&auto=0&height=66"></iframe>
+<p><embed src="//music.163.com/style/swf/widget.swf?sid=27955658&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed></p>
+<h2 id="插入视频">插入视频</h2>
+<video id="video" controls="" preload="none" poster="http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg">
+      <source id="mp4" src="http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.mp4" type="video/mp4">
+      </video>
+<pre><code class="language-xml">&lt;video id=&quot;video&quot; controls=&quot;&quot; preload=&quot;none&quot; poster=&quot;http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg&quot;&gt;
+      &lt;source id=&quot;mp4&quot; src=&quot;http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.mp4&quot; type=&quot;video/mp4&quot;&gt;
+      &lt;/video&gt;
+      ```
+
+部分内容来源：http://blog.fandong.me/2017/08/25/Markdown-Advance/
+https://www.cnblogs.com/lmlblogs/p/8732342.html
+如有侵权，请联系我删除😀。</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[在国内，如何离线使用 Android Studio🧐?]]></title>
         <id>https://Jason-summer.github.io/post/how-to-use-android-studio-offline/</id>
