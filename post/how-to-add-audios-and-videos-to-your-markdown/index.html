@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>如何在 Markdown 中插入视频和音频 | 夏元素的避风塘</title>
-<link rel="shortcut icon" href="https://Jason-summer.github.io/favicon.ico?v=1585982812682">
+<link rel="shortcut icon" href="https://Jason-summer.github.io/favicon.ico?v=1585989632120">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://Jason-summer.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="如何在 Markdown 中插入视频和音频 | 夏元素的避风塘 - Atom Feed" href="https://Jason-summer.github.io/atom.xml">
@@ -15,11 +15,13 @@
 本篇文章的受众是那些没有 xml 基础，并且像我一样🤣只会基础 Markdown 的小白。
 
 插入音乐
-方法一、使用 html
+
+请注意版权问题，避免版权纠纷！！！以下出现的视频和音频仅供示例，请勿用作其他用途。
+
+使用 html
 
       
-      
-&lt;audio id=&quot;audio&quot; controls..." />
+      ..." />
     <meta name="keywords" content="Markdown" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -29,7 +31,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://Jason-summer.github.io">
-  <img class="avatar" src="https://Jason-summer.github.io/images/avatar.png?v=1585982812682" alt="">
+  <img class="avatar" src="https://Jason-summer.github.io/images/avatar.png?v=1585989632120" alt="">
   </a>
   <h1 class="site-title">
     夏元素的避风塘
@@ -93,7 +95,7 @@
                 2020-04-04
               </span>
               <span>
-                2 min read
+                5 min read
               </span>
               
                 <a href="https://Jason-summer.github.io/tag/markdown/" class="post-tag">
@@ -108,12 +110,16 @@
 <p>本篇文章的受众是那些没有 xml 基础，并且像我一样🤣只会基础 Markdown 的小白。</p>
 </blockquote>
 <h2 id="插入音乐">插入音乐</h2>
-<h3 id="方法一-使用-html">方法一、使用 html</h3>
+<blockquote>
+<p>请注意版权问题，避免版权纠纷！！！以下出现的视频和音频仅供示例，请勿用作其他用途。</p>
+</blockquote>
+<h3 id="使用-html">使用 html</h3>
 <audio id="audio" controls="" preload="none">
-      <source id="m4a" src="https://m701.music.126.net/20200404143533/acbed1605c603887dd9a181ffd6d57d4/jdyyaac/005a/545e/0009/70f3057ebac49b803e727c14ce6e5a83.m4a">
-      </audio>
+      <source id="m4a" src="https://gitee.com/WhiteMountain/blog-resources/raw/master/%E6%96%B9%E5%9C%86%E5%87%A0%E9%87%8C%20-%20%E8%96%9B%E4%B9%8B%E8%B0%A6.m4a">
+      </audio> 
+<p>//这是薛之谦的方圆几里，仅供示例使用，请勿用作其他用途。</p>
 <pre><code class="language-xml">&lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
-      &lt;source id=&quot;m4a&quot; src=&quot;https://m701.music.126.net/20200404143533/acbed1605c603887dd9a181ffd6d57d4/jdyyaac/005a/545e/0009/70f3057ebac49b803e727c14ce6e5a83.m4a&quot;&gt;
+      &lt;source id=&quot;m4a&quot; src=&quot;https://gitee.com/WhiteMountain/blog-resources/raw/master/%E6%96%B9%E5%9C%86%E5%87%A0%E9%87%8C%20-%20%E8%96%9B%E4%B9%8B%E8%B0%A6.m4a&quot;&gt;
       &lt;/audio&gt;
 </code></pre>
 <p><code>&lt;audio&gt;</code>标签常用属性如下表</p>
@@ -153,22 +159,44 @@
 </tr>
 </tbody>
 </table>
-<h3 id="方法二-使用各个音乐平台提供的插件">方法二、使用各个音乐平台提供的插件</h3>
+<p>插入这首歌只是复制粘贴几行代码的事情，并不算难，困难的部分在于找到一个 source 放置你的歌曲且能直接访问。这里我使用了以下几种方法。</p>
+<p>方法一、上传到 Github，new repositories，然后上传文件。然后复制文件页面<strong>Download</strong>按钮的链接，例如<code>https://raw.githubusercontent.com/Jason-summer/blog-resources/master/%E6%96%B9%E5%9C%86%E5%87%A0%E9%87%8C%20-%20%E8%96%9B%E4%B9%8B%E8%B0%A6.m4a</code>。坏处是 GitHub 极其不稳定，想要访问这个文件需要科学上网，那就不适用于我们了。</p>
+<p>方法二、尽然 GitHub 不行，我们就更换一个代码托管平台呗。国内的平台有 Gitee 和 Coding 等，操作方法与 GitHub 的大同小异。</p>
+<p>方法三、上传到个人云盘，然后分享。</p>
+<h3 id="使用各个音乐平台提供的插件">使用各个音乐平台提供的插件</h3>
 <p>网易云音乐提供了将音乐生成外链（某些版权歌曲不可）的插件。访问网易云的网页，在某首歌曲的详情页有<strong>生成外链播放器</strong>，接下来只要把获得的代码插入 Markdown 中就行了。</p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=27955658&auto=0&height=66"></iframe>
 <p><embed src="//music.163.com/style/swf/widget.swf?sid=27955658&type=2&auto=0&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed></p>
 <h2 id="插入视频">插入视频</h2>
-<video id="video" controls="" preload="none" poster="http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg">
-      <source id="mp4" src="http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.mp4" type="video/mp4">
+<p>你可以把视频存进你的网盘，然后通过分享的方式，在分享页面用一些特殊的方法[^1]找到视频地址。不过一般来说网盘中的视频地址不久就会改变，所以很有可能失效。</p>
+<video id="video" controls="" preload="none" poster="https://i.vimeocdn.com/video/862586401_640x360.jpg">
+      <source id="mp4" src="https://gzc-download.weiyun.com/ftn_handler/4172f99714837bfe77b3284a78733bfb4c12550b163ca17bc4f52aaff067fb04/Iceland%20-%2033191-1.mp4?fname=Iceland%20-%2033191-1.mp4&from=30111&version=3.3.3.3" type="video/mp4">
       </video>
-<pre><code class="language-xml">&lt;video id=&quot;video&quot; controls=&quot;&quot; preload=&quot;none&quot; poster=&quot;http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg&quot;&gt;
-      &lt;source id=&quot;mp4&quot; src=&quot;http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.mp4&quot; type=&quot;video/mp4&quot;&gt;
+<p>该视频由<a href="https://pixabay.com/zh/users/Roberto2016-2122248/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=33191">Roberto D'Amico</a>在<a href="https://pixabay.com/zh/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=33191">Pixabay</a>上发布</p>
+<pre><code class="language-xml">&lt;video id=&quot;video&quot; controls=&quot;&quot; preload=&quot;none&quot; poster=&quot;https://i.vimeocdn.com/video/862586401_640x360.jpg&quot;&gt;
+      &lt;source id=&quot;mp4&quot; src=&quot;https://gzc-download.weiyun.com/ftn_handler/4172f99714837bfe77b3284a78733bfb4c12550b163ca17bc4f52aaff067fb04/Iceland%20-%2033191-1.mp4?fname=Iceland%20-%2033191-1.mp4&amp;from=30111&amp;version=3.3.3.3&quot; type=&quot;video/mp4&quot;&gt;
       &lt;/video&gt;
-      ```
-
-部分内容来源：http://blog.fandong.me/2017/08/25/Markdown-Advance/
-https://www.cnblogs.com/lmlblogs/p/8732342.html
-如有侵权，请联系我删除😀。</code></pre>
+</code></pre>
+<p>如果你有视频在互联网上的地址的话，你可以使用链接直接播放。</p>
+<video id="video" controls="" preload="none" poster="https://wedistill.io/uploads/thumbnails/34/Adrift-HD.mp4-poster.png">
+      <source id="mp4" src="https://wedistill.io/uploads/videos/processed/34/Adrift-HD.mp4.mp4" type="video/mp4">
+      </video>
+<pre><code class="language-xml">&lt;video id=&quot;video&quot; controls=&quot;&quot; preload=&quot;none&quot; poster=&quot;https://wedistill.io/uploads/thumbnails/34/Adrift-HD.mp4-poster.png&quot;&gt;
+      &lt;source id=&quot;mp4&quot; src=&quot;https://wedistill.io/uploads/videos/processed/34/Adrift-HD.mp4.mp4&quot; type=&quot;video/mp4&quot;&gt;
+      &lt;/video&gt;
+</code></pre>
+<p>Made by <a href="http://www.createthebridge.com/">Create the Bridge</a></p>
+<p>当然，还得考虑原视频会不会下架、消失，所以最好还是存进自己的仓库吧（注意版权问题）。</p>
+<video id="video" controls="" preload="none" poster="https://gitee.com/WhiteMountain/blog-resources/raw/master/Adrift-HD.mp4-poster.png">
+      <source id="mp4" src="https://gitee.com/WhiteMountain/blog-resources/raw/master/Adrift-HD.mp4.mp4" type="video/mp4">
+      </video>
+<pre><code class="language-xml">&lt;video id=&quot;video&quot; controls=&quot;&quot; preload=&quot;none&quot; poster=&quot;https://gitee.com/WhiteMountain/blog-resources/raw/master/Adrift-HD.mp4-poster.png&quot;&gt;
+      &lt;source id=&quot;mp4&quot; src=&quot;https://gitee.com/WhiteMountain/blog-resources/raw/master/Adrift-HD.mp4.mp4&quot; type=&quot;video/mp4&quot;&gt;
+      &lt;/video&gt;
+</code></pre>
+<p>部分内容来源：http://blog.fandong.me/2017/08/25/Markdown-Advance/<br>
+https://www.cnblogs.com/lmlblogs/p/8732342.html<br>
+如有侵权，请联系我删除😀。</p>
 
               </div>
               <div class="toc-container">
@@ -177,8 +205,8 @@ https://www.cnblogs.com/lmlblogs/p/8732342.html
 <ul>
 <li><a href="#%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90">插入音乐</a>
 <ul>
-<li><a href="#%E6%96%B9%E6%B3%95%E4%B8%80-%E4%BD%BF%E7%94%A8-html">方法一、使用 html</a></li>
-<li><a href="#%E6%96%B9%E6%B3%95%E4%BA%8C-%E4%BD%BF%E7%94%A8%E5%90%84%E4%B8%AA%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0%E6%8F%90%E4%BE%9B%E7%9A%84%E6%8F%92%E4%BB%B6">方法二、使用各个音乐平台提供的插件</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8-html">使用 html</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E5%90%84%E4%B8%AA%E9%9F%B3%E4%B9%90%E5%B9%B3%E5%8F%B0%E6%8F%90%E4%BE%9B%E7%9A%84%E6%8F%92%E4%BB%B6">使用各个音乐平台提供的插件</a></li>
 </ul>
 </li>
 <li><a href="#%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91">插入视频</a></li>
