@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Jason-summer.github.io</id>
     <title>夏元素的避风塘</title>
-    <updated>2020-04-13T10:52:55.989Z</updated>
+    <updated>2020-04-13T11:48:34.854Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Jason-summer.github.io"/>
     <link rel="self" href="https://Jason-summer.github.io/atom.xml"/>
@@ -10,6 +10,30 @@
     <logo>https://Jason-summer.github.io/images/avatar.png</logo>
     <icon>https://Jason-summer.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 夏元素的避风塘</rights>
+    <entry>
+        <title type="html"><![CDATA[#3 More]]></title>
+        <id>https://Jason-summer.github.io/post/3-more/</id>
+        <link href="https://Jason-summer.github.io/post/3-more/">
+        </link>
+        <updated>2020-04-13T11:43:44.000Z</updated>
+        <content type="html"><![CDATA[<p>When Conner came about what happened to him, he <strong>couldn't feel more</strong> in shame than he had been now. How stupid, how foolish, how <strong>ridiculous</strong> he was, that's what he couldn't stop thinking. When he calmed down, he started wondering. He had lost face, now he must act more like a common people. Thought that, he made his determine.</p>
+<p>He put down the cup after he finished his, what he gave him's coffee. Do not forget the business, he reminded himself.</p>
+<p>&quot;So, what are the people here live for? Fishing I guess?&quot; asked by Conner.</p>
+<p>&quot;Touring and leather making actually.&quot; answered by Joe, who didn't mind the rude of his guest.</p>
+<p>Realizing his rudeness, Conner tried to pretend gentler.</p>
+<p>&quot;So, what's meaning of the clothing like that?&quot; Conner pointed at the clothes he was wearing. A suit of leather... That made him remember that kind of gay he had seen in England.</p>
+<p>&quot;Those are our belief. A belief of male, vigorous(雄浑的), strength and so.&quot; Joe tried to complain in relief as he knew Conner might not understand now.</p>
+<p>Silence, again. Conner thought there's no more embarrassing situation for past and future. Luckily, Conner himself broke it. &quot;eh...Would you like to show me around? The island.&quot;</p>
+<p>Joe raised eyebrows then said, &quot;Of course, if you wanted.&quot; He stood up and led the way.</p>
+<p>It's a <strong>awesome</strong> island. There's a population of no more than a million but all men. <strong>Have a well-deserved reputation</strong> of gay island. German is its official language but most people can speak English quite well. There's some bars and a modern hospital that is guarded well. And it has a school!</p>
+<p>How can they get students for it? Conner was wondering when walking along the street with Joe. Joe glanced at his face, it seemed like Conner had forgotten what just happened. Thank god. Joe said in his mind. How dare he so bold(大胆的) to do those things. He was a bit regretful. &quot;I must leave a bad image(形象).&quot;</p>
+<p>It was a time when Conner saw a person whose clothes wasn't made with leather. He asked Joe why. &quot;I thought people here can't live without leather.&quot; He threw a <strong>taunt(嘲讽)</strong>.</p>
+<p>&quot;Well, sorry the island is not so bad as you may think.&quot; Joe shrugged(耸肩). &quot;We are not always in leather. Sometimes we dress like sunny boys. But I'm sure there's not a clothing like arrogant(傲慢的) businessmen.&quot;</p>
+<p>&quot;Here we go.&quot; He dragged Conner into a clothing shop. When they came out, with he shaved, Conner looked like a young boy although he was in his 30s. He now wore in white T-shirt, coffee-coloured overalls(工装裤) and white socks in Adidas sports shoes. A white skirt and a suspenders were in shopping bag while his original(原先的) clothing in another one.</p>
+<p>&quot;Not bad.&quot; Stood in front of the mirror.</p>
+<p>&quot;You will love here, as I said.&quot;</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[#2 Evolution]]></title>
         <id>https://Jason-summer.github.io/post/2-evolution/</id>
@@ -533,19 +557,6 @@ setting→Editor→Font 调整编辑器的字体和大小</p>
 </li>
 </ol>
 </section>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[告示]评论系统已经恢复正常]]></title>
-        <id>https://Jason-summer.github.io/post/review-system-is-stopping/</id>
-        <link href="https://Jason-summer.github.io/post/review-system-is-stopping/">
-        </link>
-        <updated>2020-04-03T06:45:42.000Z</updated>
-        <content type="html"><![CDATA[<p>之前其实是 Gitalk 我没搞好嘿嘿嘿🤭。</p>
-<p>我认为应该是之前配置不正确，主要就是大小写没注意，然后就疯狂更改 GitHub 和 Gridea 的配置，可能是访问过于频繁导致被限流，让我等一段时间再访问吧。</p>
-<p>参考文档：……</p>
-<p>草字头，我尝试着发评论，又是 Error: Network Error. 不过刚刚我是登陆上 GitHub 了的，现在又被顶下来了，可能还是网络或者访问流量的问题。</p>
-<p>似乎又行了，又是那个说什么让我登录初始化 issue，然后我已登陆就上的去了。好吧😀</p>
 ]]></content>
     </entry>
 </feed>
