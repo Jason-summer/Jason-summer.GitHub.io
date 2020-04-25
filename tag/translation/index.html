@@ -1,129 +1,163 @@
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
+    <meta charset="utf-8" >
 
 <title>翻译训练 | 夏元素的避风塘</title>
-<link rel="shortcut icon" href="https://Jason-summer.github.io/favicon.ico?v=1586778505359">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Jason-summer.github.io/favicon.ico?v=1587787237230">
 <link rel="stylesheet" href="https://Jason-summer.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="翻译训练 | 夏元素的避风塘 - Atom Feed" href="https://Jason-summer.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-  <meta name="description" content="理想生活+" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="理想生活+">
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://Jason-summer.github.io">
-  <img class="avatar" src="https://Jason-summer.github.io/images/avatar.png?v=1586778505359" alt="">
-  </a>
-  <h1 class="site-title">
-    夏元素的避风塘
-  </h1>
-  <p class="site-description">
-    理想生活+
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://Jason-summer.github.io">
+        <img src="https://Jason-summer.github.io/images/avatar.png?v=1587787237230" class="site-logo">
+        <h1 class="site-title">夏元素的避风塘</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-        <a href="https://github.com/Jason-summer" target="_blank">
-          <i class="ri-github-line"></i>
-        </a>
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+    </div>
+    <div class="site-description">
+      理想生活+
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Jason-summer.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="current-tag-container">
-            <h2 class="title">
-                标签：# 翻译训练
-            </h2> 
-        </div>
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://Jason-summer.github.io/post/translation-2020412/">
-        <h2 class="post-title">翻译训练 2020/4/12</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-12
-        </span>
-        <span>
-          1 min read
-        </span>
-        
-          <a href="https://Jason-summer.github.io/tag/translation/" class="post-tag">
-            # 翻译训练
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        <center>Torches (TV size) - Aimer (エメ)<center/>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <h2 class="current-tag">标签: 翻译训练</h2>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://Jason-summer.github.io/post/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19/">
+                  <h2 class="post-title">Mozilla 支持“开放冠状病毒协议”：为了战胜 COVID-19 开放使用知识产权</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-25
+                </div>
+                <div class="post-abstract">
+                  <p>本文翻译自 Mozilla Blog，文章原题为 <a href="https://blog.mozilla.org/blog/2020/04/07/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19/">Mozilla Supports the Open COVID Pledge: Making Intellectual  Property Freely Available for the Fight Against COVID-19</a>，原文作者 <a href="https://blog.mozilla.org/blog/author/akeatingmozilla-com/">Amy Keating</a> 发表于 April 7, 2020.</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://Jason-summer.github.io/post/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19/">
+                  <div class="feature-container" style="background-image: url('https://Jason-summer.github.io/post-images/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://Jason-summer.github.io/post/translation-2020412/">
+                  <h2 class="post-title">翻译训练 2020/4/12</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-12
+                </div>
+                <div class="post-abstract">
+                  <center>Torches (TV size) - Aimer (エメ)<center/>
 <center>词：aimerrhythm<center/>
 <center>曲：飛内将大<center/>
 <center>编曲：玉井健二/飛内将大<center/>
 
-      </div>
-    </article>
+                </div>
+              </div>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
   
 </div>
 
-        <div class="pagination-container">
-  
-  
-</div>
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://Jason-summer.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+        </div>
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
   </body>
 </html>

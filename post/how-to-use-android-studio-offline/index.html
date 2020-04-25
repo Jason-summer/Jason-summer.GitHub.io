@@ -1,109 +1,110 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
+    <meta charset="utf-8" >
 
 <title>在国内，如何离线使用 Android Studio🧐? | 夏元素的避风塘</title>
-<link rel="shortcut icon" href="https://Jason-summer.github.io/favicon.ico?v=1586778505359">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Jason-summer.github.io/favicon.ico?v=1587787237230">
 <link rel="stylesheet" href="https://Jason-summer.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="在国内，如何离线使用 Android Studio🧐? | 夏元素的避风塘 - Atom Feed" href="https://Jason-summer.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
     <meta name="description" content="
 由于一些众所周知的原因，在国内无法访问很多谷歌的服务以及网站。但，有志者，事竟成，我们总会有办法解决遇到的问题的。由于优达学城的这个视频的教程是很早以前录制的了，很多玩意儿上不去，那就跟随我的步伐，在光滑的地上摩擦 Android 中国开..." />
     <meta name="keywords" content="开发" />
-    <meta name="referrer" content="same-origin">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://Jason-summer.github.io">
-  <img class="avatar" src="https://Jason-summer.github.io/images/avatar.png?v=1586778505359" alt="">
-  </a>
-  <h1 class="site-title">
-    夏元素的避风塘
-  </h1>
-  <p class="site-description">
-    理想生活+
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://Jason-summer.github.io">
+        <img src="https://Jason-summer.github.io/images/avatar.png?v=1587787237230" class="site-logo">
+        <h1 class="site-title">夏元素的避风塘</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-        <a href="https://github.com/Jason-summer" target="_blank">
-          <i class="ri-github-line"></i>
-        </a>
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+    </div>
+    <div class="site-description">
+      理想生活+
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Jason-summer.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              在国内，如何离线使用 Android Studio🧐?
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-04-03
-              </span>
-              <span>
-                12 min read
-              </span>
-              
-                <a href="https://Jason-summer.github.io/tag/itPlsg2cI/" class="post-tag">
-                  # 开发
-                </a>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">在国内，如何离线使用 Android Studio🧐?</h2>
+            <div class="post-date">2020-04-03</div>
             
-              <img class="post-feature-image" src="https://Jason-summer.github.io/post-images/how-to-use-android-studio-offline.jpg" alt="">
+              <div class="feature-container" style="background-image: url('https://Jason-summer.github.io/post-images/how-to-use-android-studio-offline.jpg')">
+              </div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <blockquote>
+            <div class="post-content" v-pre>
+              <blockquote>
 <p>由于一些众所周知的原因，在国内无法访问很多谷歌的服务以及网站。但，有志者，事竟成，我们总会有办法解决遇到的问题的。由于优达学城的这个视频的教程是很早以前录制的了，很多玩意儿上不去，那就跟随我的步伐，在<s>光滑的地上摩擦</s> <a href="https://developer.android.google.cn">Android 中国开发者</a>的帮助下解决问题吧。</p>
 </blockquote>
 <p>下面的内容来源纷繁，你可以查看这个目录知悉内容的来源。</p>
@@ -332,138 +333,82 @@
 </li>
 </ol>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%AE%89%E8%A3%85-android-studio">下载并安装 Android Studio</a></li>
-<li><a href="#%E9%85%8D%E7%BD%AE%E7%A6%BB%E7%BA%BF%E7%BC%96%E8%AF%91%E4%BE%9D%E8%B5%96%E9%A1%B9">配置离线编译依赖项</a>
-<ul>
-<li><a href="#%E4%B8%8B%E8%BD%BD%E5%B9%B6%E8%A7%A3%E5%8E%8B%E7%BC%A9%E7%A6%BB%E7%BA%BF%E7%BB%84%E4%BB%B6">下载并解压缩离线组件</a></li>
-<li><a href="#%E5%9C%A8-gradle-%E9%A1%B9%E7%9B%AE%E4%B8%AD%E6%B7%BB%E5%8A%A0%E7%A6%BB%E7%BA%BF%E7%BB%84%E4%BB%B6">在 Gradle 项目中添加离线组件</a></li>
-</ul>
-</li>
-<li><a href="#%E5%8F%AF%E9%80%89%E9%92%88%E5%AF%B9%E4%BD%8E%E5%86%85%E5%AD%98%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%85%8D%E7%BD%AE-android-studio">（可选）针对低内存计算机配置 Android Studio</a></li>
-<li><a href="#%E5%8F%AF%E9%80%89%E5%9C%A8-windows-%E4%B8%8A%E4%BC%98%E5%8C%96-android-studio-%E6%80%A7%E8%83%BD">（可选）在 Windows 上优化 Android Studio 性能</a>
-<ul>
-<li><a href="#%E6%9C%80%E5%A4%A7%E9%99%90%E5%BA%A6%E5%9C%B0%E9%99%8D%E4%BD%8E%E9%98%B2%E7%97%85%E6%AF%92%E8%BD%AF%E4%BB%B6%E5%AF%B9%E7%BC%96%E8%AF%91%E9%80%9F%E5%BA%A6%E7%9A%84%E5%BD%B1%E5%93%8D">最大限度地降低防病毒软件对编译速度的影响</a>
-<ul>
-<li><a href="#%E4%B8%BA%E7%BB%84%E7%AD%96%E7%95%A5%E5%8F%97%E6%8E%A7%E7%8E%AF%E5%A2%83%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9B%AE%E5%BD%95%E4%BD%8D%E7%BD%AE">为组策略受控环境自定义目录位置</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86">开发者工作流程基础知识</a></li>
-</ul>
-</li>
-</ul>
-
-              </div>
             </div>
-          </article>
-        </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://Jason-summer.github.io/tag/itPlsg2cI/" class="tag">
+                    开发
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://Jason-summer.github.io/post/the-foundation-of-my-blog/">
+                  <h3 class="post-title">
+                    “避风港”的诞生日记
+                  </h3>
+                </a>
+              </div>
+            
 
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://Jason-summer.github.io/post/the-foundation-of-my-blog/">
-              <h3 class="post-title">
-                “避风港”的诞生日记
-              </h3>
-            </a>
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
-        
-    
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-<div id="gitalk-container"></div>
+        </div>
+      </div>
+    </div>
 
-<script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-  var gitalk = new Gitalk({
-    clientID: 'd58ad16ad66ee00d3bc5',
-    clientSecret: 'ac26e1eeae0d0cb7e660f5cfe7d5139eea8fb3fd',
-    repo: 'Jason-summer.github.io',
-    owner: 'Jason-summer',
-    admin: ['Jason-summer'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
+AOS.init();
 
-  gitalk.render('gitalk-container')
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
 
-          
-    
-          
-        
-    
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://Jason-summer.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
 
-      </div>
-    </div>
-    
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     <script>
-      hljs.initHighlightingOnLoad()
-    
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
-    
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
-    
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
-    
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
-    
+
+      var gitalk = new Gitalk({
+        clientID: 'd58ad16ad66ee00d3bc5',
+        clientSecret: 'ac26e1eeae0d0cb7e660f5cfe7d5139eea8fb3fd',
+        repo: 'Jason-summer.github.io',
+        owner: 'Jason-summer',
+        admin: ['Jason-summer'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
     </script>
-    
-    <!DOCTYPE html>
-<html lang="en">
+  
 
-<head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iMuFeng/bmdb@1.8.0/dist/Bmdb.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/iMuFeng/bmdb@1.8.0/dist/Bmdb.min.js" />
-</head>
+  
 
-</html>
-    
+
+
+
   </body>
 </html>

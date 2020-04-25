@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Jason-summer.github.io</id>
     <title>夏元素的避风塘</title>
-    <updated>2020-04-13T11:48:34.854Z</updated>
+    <updated>2020-04-25T04:02:41.512Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Jason-summer.github.io"/>
     <link rel="self" href="https://Jason-summer.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://Jason-summer.github.io/images/avatar.png</logo>
     <icon>https://Jason-summer.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 夏元素的避风塘</rights>
+    <entry>
+        <title type="html"><![CDATA[Mozilla 支持“开放冠状病毒协议”：为了战胜 COVID-19 开放使用知识产权]]></title>
+        <id>https://Jason-summer.github.io/post/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19/</id>
+        <link href="https://Jason-summer.github.io/post/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19/">
+        </link>
+        <updated>2020-04-25T03:49:45.000Z</updated>
+        <summary type="html"><![CDATA[<p>本文翻译自 Mozilla Blog，文章原题为 <a href="https://blog.mozilla.org/blog/2020/04/07/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19/">Mozilla Supports the Open COVID Pledge: Making Intellectual  Property Freely Available for the Fight Against COVID-19</a>，原文作者 <a href="https://blog.mozilla.org/blog/author/akeatingmozilla-com/">Amy Keating</a> 发表于 April 7, 2020.</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本文翻译自 Mozilla Blog，文章原题为 <a href="https://blog.mozilla.org/blog/2020/04/07/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19/">Mozilla Supports the Open COVID Pledge: Making Intellectual  Property Freely Available for the Fight Against COVID-19</a>，原文作者 <a href="https://blog.mozilla.org/blog/author/akeatingmozilla-com/">Amy Keating</a> 发表于 April 7, 2020.</p>
+<!-- more -->
+<blockquote>
+<p>COVID-19 has afflicted more than one million people worldwide,  and the number continues to climb every day. However long the pandemic  lasts, we know that scientists and others’ ability to share work toward solutions is critical to ending it.</p>
+</blockquote>
+<p>COVID-19 已经影响到全世界至少一百万人，并且这个数字还在逐日增长。不管这场流行病还要持续多久，我们都知道科学家和社会各界人士共享解决方案对于结束这一切来说不可或缺。</p>
+<blockquote>
+<p>The<a href="https://opencovidpledge.org/"> Open COVID Pledge</a>, a  project of an international coalition of scientists, technologists, and legal experts, has been created to address this issue. The project calls on companies, universities and other organizations to make their  intellectual property (IP) temporarily available free of charge for use in ending the pandemic and minimizing its impact.</p>
+</blockquote>
+<p><a href="https://opencovidpledge.org/">开放冠状病毒协议</a>——科学家、科研工作者和法律专家国际联盟成立这个项目以便解决这个问题。这个项目呼吁各公司、大学和其他组织暂时免费开放它们的知识产权供大众使用以结束疫情和减轻疫情影响。</p>
+<blockquote>
+<p>Mozilla is grateful to the organizers of and contributors to the Open COVID Pledge, and is proud to support this critical effort. We are an  organization dedicated to keeping the internet open and accessible to  all. We support the open exchange of ideas, technologies, and resources  in our day-to-day work and recognize the power of removing barriers in this time of crisis to preserve the social fabric and save lives.</p>
+</blockquote>
+<p>Mozilla 十分感谢那些参与到“开放冠状病毒协议”的组织者和贡献者，并且非常荣幸能够支持这个攻坚力量。我们是一个致力于营造开放的、人人可访问的互联网的组织，我们支持在日常生活中开放地交换想法、技术和资源，赞扬那些在这危难关头为了维护社会秩序、拯救生命而放下隔阂的力量。</p>
+<blockquote>
+<p>We invite others to join us in supporting this important initiative to help combat the spread of COVID-19.</p>
+</blockquote>
+<p>我们邀请其他人加入我们，支持这个抑制 COVID-19 传播的重要倡议。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[#3 More]]></title>
         <id>https://Jason-summer.github.io/post/3-more/</id>
@@ -519,44 +547,6 @@ setting→Editor→Font 调整编辑器的字体和大小</p>
 <p>操作指南：https://developer.android.google.cn/studio/run/emulator</p>
 <h2 id="校检后补充一段时间后">校检后补充（一段时间后）</h2>
 <p>事实证明 Android Studio 4.0 Preview 也是可以使用离线模式的。但是 4.0 的代码补全有一些问题，它补全的不是接下来的属性名，而是属性的属性的属性……（一直到底那一种）所以目前不是很方便使用。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[#1 First Meet]]></title>
-        <id>https://Jason-summer.github.io/post/1-first-meet/</id>
-        <link href="https://Jason-summer.github.io/post/1-first-meet/">
-        </link>
-        <updated>2020-04-03T06:48:48.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="content">📕CONTENT</h2>
-<p>It was a sunny day when Conner took his first step on the island, who as a journalist had been working for a news company for a while. This infamous island had been told by the others thousands of times to him, which made him bored.</p>
-<p>&quot;I will never <strong>be charmed by</strong><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> those sick guys' tricks.&quot; He thought about it since long before the boat he took arrived there. As he went along the path from the port where he went off, unexpectedly, he saw the man, who he confirmed immediately that was the one waiting for him, walking towards him.</p>
-<p>&quot;Hi, glad to see you. I'm Joe and you must be Conner yet?&quot;</p>
-<p>Conner looked him up and down for a while, then, in unpleasant, said &quot;I'm Conner. Meet you now.&quot; At the same time, he was wondering how can this young man <strong>assimilate</strong><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup> him into his similar...</p>
-<p><strong>Interrupting</strong><sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> his <strong>tremendous</strong><sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup> imagination, the man hugged him with his left arm surrounding him along with his right hand patted the back of Conner. It was a bit uncomfortable, mentally, but in physics, it's some kinds of mild, then levelled up to a strange feeling, rather than saying pleased he thought.</p>
-<p>It was a hard time, for him. Joe hugged him tightly while the right hand was still in its position. Now he saw he was so blind that he thought the man was weak. It was just some seconds that he couldn't bear. Out of expectation, he never thought it would happen <strong>as a flash</strong><sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup>.</p>
-<p><strong>Right before</strong><sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup> Conner was prepared for arguing, or in some points, explaining, Joe had left him and went in a direction without a word. &quot;Come on! You gonna love it here.&quot; Together with a wink. No way to escape, Conner had to follow him and trotted towards the cabin.</p>
-<h2 id="do-you-know">❓DO YOU KNOW</h2>
-<blockquote>
-<p>You can use <code>&lt;div STYLE=&quot;page-break-after: always;&quot;&gt;&lt;/div&gt;</code> to add a new page when you try to export a Markdown.</p>
-</blockquote>
-<h2 id="notes">💡NOTES</h2>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>be charmed by 被……迷惑 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>assimilate v.同化 <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn3" class="footnote-item"><p>interrupt v.打断 <a href="#fnref3" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn4" class="footnote-item"><p>tremendous adj.巨大的，极好的 <a href="#fnref4" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn5" class="footnote-item"><p>as a flash 快如闪电 <a href="#fnref5" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn6" class="footnote-item"><p>right before 正当 <a href="#fnref6" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
 ]]></content>
     </entry>
 </feed>
