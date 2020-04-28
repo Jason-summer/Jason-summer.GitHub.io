@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Jason-summer.github.io</id>
     <title>夏元素的避风塘</title>
-    <updated>2020-04-28T06:02:49.806Z</updated>
+    <updated>2020-04-28T06:12:29.326Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Jason-summer.github.io"/>
     <link rel="self" href="https://Jason-summer.github.io/atom.xml"/>
@@ -19,14 +19,43 @@
         <content type="html"><![CDATA[<p>先声明一下时间：今天是2020/4/28，我把之前零碎的内容合并在这里。</p>
 <p>[告示]评论系统已经恢复正常<br>
 建立日期：2020-04-03 14:45:42</p>
+<blockquote>
 <p>之前其实是 Gitalk 我没搞好嘿嘿嘿🤭。</p>
 <p>我认为应该是之前配置不正确，主要就是大小写没注意，然后就疯狂更改 GitHub 和 Gridea 的配置，可能是访问过于频繁导致被限流，让我等一段时间再访问吧。</p>
 <p>参考文档：……</p>
 <p>草字头，我尝试着发评论，又是 Error: Network Error. 不过刚刚我是登陆上 GitHub 了的，现在又被顶下来了，可能还是网络或者访问流量的问题。</p>
 <p>似乎又行了，又是那个说什么让我登录初始化 issue，然后我已登陆就上的去了。好吧😀</p>
+</blockquote>
+<p>评论区的内容：</p>
+<blockquote>
+<p>Jason-summer commented 25 days ago<br>
+https://jason-summer.github.io/post/review-system-is-stopping/</p>
+<p>之前其实是 Gitalk 我没搞好嘿嘿嘿🤭。<br>
+我认为应该是之前配置不正确，主要就是大小写没注意，然后就疯狂更改 GitHub 和 Gridea 的配置，可能是访问过于频繁导致被限流，让我等一段时间再访问吧。<br>
+参考文档：……<br>
+草字头，我尝试...</p>
+<p>@Jason-summer Jason-summer added Gitalk /post/review-system-is-stopping/ labels 25 days ago<br>
+@Jason-summer</p>
+<p>Owner<br>
+Author<br>
+Jason-summer commented 25 days ago<br>
+迷惑……</p>
+<p>@Jason-summer</p>
+<p>Owner<br>
+Author<br>
+Jason-summer commented 25 days ago<br>
+果然第一条评论只能靠偶然，预先准备好什么的不存在。不过还是得说：第一条评论当然得是我自己发的啦~~~~~😀</p>
+<p>@Jason-summer</p>
+<p>Owner<br>
+Author<br>
+Jason-summer commented 24 days ago<br>
+我明白了，估计是 GitHub（或者说网络环境）那边的问题，因为墙有些高。</p>
+</blockquote>
 <p>部署豆瓣电影<br>
 建立时间：今天</p>
+<blockquote>
 <p>使用 Gridea 的 Breek 主题，需要在网站结构中添加 /movies 和 /books 支页。同样，该主题的友链设置 /friends 。</p>
+</blockquote>
 ]]></content>
     </entry>
     <entry>
