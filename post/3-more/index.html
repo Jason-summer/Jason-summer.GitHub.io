@@ -1,106 +1,128 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>#3 More | 夏元素的避风塘</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://Jason-summer.github.io/favicon.ico?v=1587787237230">
+<meta name="description" content="理想生活+" />
+<link rel="shortcut icon" href="https://Jason-summer.github.io/favicon.ico">
 <link rel="stylesheet" href="https://Jason-summer.github.io/styles/main.css">
 
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-
+<script src="https://Jason-summer.github.io/media/js/jquery.min.js"></script>
+<script src="https://Jason-summer.github.io/media/js/masonry.pkgd.min.js"></script>
+<script src="https://Jason-summer.github.io/media/js/aos.js"></script>
+<script src="https://Jason-summer.github.io/media/js/pace.min.js"></script>
+<script src="https://Jason-summer.github.io/media/js/view-image.min.js"></script>
+<script src="https://Jason-summer.github.io/media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://Jason-summer.github.io/media/js/functions.js"></script>
+    <meta name="referrer" content="never">
     <meta name="description" content="When Conner came about what happened to him, he couldn't feel more in shame than he had been now. How stupid, how foolis..." />
     <meta name="keywords" content="小说" />
+    <script src="https://Jason-summer.github.io/media/js/waterfall.min.js"></script>
+    <script src="https://Jason-summer.github.io/media/js/prism.min.js"></script>
   </head>
   <body>
-    <div id="app" class="main">
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
+        </div>
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://Jason-summer.github.io"><img src="\media\images\custom-headerLogo.jpg" alt=""></a>
+            </div>
+            <!-- start: .main-nav -->
 
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://Jason-summer.github.io">
-        <img src="https://Jason-summer.github.io/images/avatar.png?v=1587787237230" class="site-logo">
-        <h1 class="site-title">夏元素的避风塘</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class=""><a href="https://Jason-summer.github.io" class="menu">首页</a></li>
+                
+                  <li class="" >
+                    <a href="/archives" class="menu">
+                      归档
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/tags" class="menu">
+                      标签
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/post/about" class="menu">
+                      关于
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/movies" class="menu">
+                      观影
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/books" class="menu">
+                      书籍
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
+        </div>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1588051561148" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
-    </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      理想生活+
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Jason-summer.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
 
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">#3 More</h2>
-            <div class="post-date">2020-04-13</div>
-            
-            <div class="post-content" v-pre>
-              <p>When Conner came about what happened to him, he <strong>couldn't feel more</strong> in shame than he had been now. How stupid, how foolish, how <strong>ridiculous</strong> he was, that's what he couldn't stop thinking. When he calmed down, he started wondering. He had lost face, now he must act more like a common people. Thought that, he made his determine.</p>
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('/media/images/gridea.jpg');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2020-04-13"><i class="fa fa-calendar"></i><span class="lately">15 天前</span></time>
+              
+              <a href="https://Jason-summer.github.io/post/3-more/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/3-more/"> </span>
+              </a>
+              <span id="/3-more/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+                      <a href="https://Jason-summer.github.io/tag/novels/" class="ctag ctag-0 ctag-novels" aria-label="">小说</a>
+                    
+              </div>
+              <h1 class="title ularge white bold">#3 More</h1>
+            </div>
+          </div>
+        </div>  
+
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <p>When Conner came about what happened to him, he <strong>couldn't feel more</strong> in shame than he had been now. How stupid, how foolish, how <strong>ridiculous</strong> he was, that's what he couldn't stop thinking. When he calmed down, he started wondering. He had lost face, now he must act more like a common people. Thought that, he made his determine.</p>
 <p>He put down the cup after he finished his, what he gave him's coffee. Do not forget the business, he reminded himself.</p>
 <p>&quot;So, what are the people here live for? Fishing I guess?&quot; asked by Conner.</p>
 <p>&quot;Touring and leather making actually.&quot; answered by Joe, who didn't mind the rude of his guest.</p>
@@ -117,82 +139,234 @@
 <p>&quot;Not bad.&quot; Stood in front of the mirror.</p>
 <p>&quot;You will love here, as I said.&quot;</p>
 
-            </div>
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              <article class="prev grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://Jason-summer.github.io/post-images/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19.png');"></div>
+                 <a href="https://Jason-summer.github.io/post/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-04-25">2020-04-25</time>
+                  <h4 class="title white no-margin">Mozilla 支持“开放冠状病毒协议”：为了战胜 COVID-19 开放使用知识产权</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://Jason-summer.github.io/media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://Jason-summer.github.io/media/images/novels.jpg');"></div>
+                 <a href="https://Jason-summer.github.io/post/2-evolution/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-04-13">2020-04-13</time>
+                  <h4 class="title white no-margin">#2 Evolution</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://Jason-summer.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
             
-              <div class="tag-container">
+              <div id="comments" class="bg-white hosted ">
                 
-                  <a href="https://Jason-summer.github.io/tag/novels/" class="tag">
-                    小说
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://Jason-summer.github.io/post/2-evolution/">
-                  <h3 class="post-title">
-                    #2 Evolution
-                  </h3>
-                </a>
-              </div>
-            
+                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
+<div id="gitalk-container"></div>
+<div class="clear"></div>
 
-              
-            
+<script>
+  var gitalk = new Gitalk({
+    clientID: 'd58ad16ad66ee00d3bc5',
+    clientSecret: 'ac26e1eeae0d0cb7e660f5cfe7d5139eea8fb3fd',
+    repo: 'Jason-summer.github.io',
+    owner: 'Jason-summer',
+    admin: ['Jason-summer'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
 
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+  gitalk.render('gitalk-container')
 </script>
 
+                
+                
+              </div>
+            
 
+            </div>
+          </div>
+      </main>
 
+          <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  
+                  
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Jason-summer.github.io/post/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://Jason-summer.github.io/post-images/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19.png');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-25">2020-04-25</time>
+                      <h4 class="title usmall">
+                        <a href="https://Jason-summer.github.io/post/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19/">Mozilla 支持“开放冠状病毒协议”：为了战胜 COVID-19 开放使用知识产权</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Jason-summer.github.io/post/3-more/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-13">2020-04-13</time>
+                      <h4 class="title usmall">
+                        <a href="https://Jason-summer.github.io/post/3-more/">#3 More</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Jason-summer.github.io/post/2-evolution/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-13">2020-04-13</time>
+                      <h4 class="title usmall">
+                        <a href="https://Jason-summer.github.io/post/2-evolution/">#2 Evolution</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
 
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                      <a href="https://Jason-summer.github.io/tag/translation/" class="ctag ctag-0 ctag-translation" aria-label="">翻译训练</a>
+                    
+                      <a href="https://Jason-summer.github.io/tag/novels/" class="ctag ctag-1 ctag-novels" aria-label="">小说</a>
+                    
+                      <a href="https://Jason-summer.github.io/tag/markdown/" class="ctag ctag-2 ctag-markdown" aria-label="">Markdown</a>
+                    
+                      <a href="https://Jason-summer.github.io/tag/itPlsg2cI/" class="ctag ctag-3 ctag-itPlsg2cI" aria-label="">开发</a>
+                    
+                      <a href="https://Jason-summer.github.io/tag/OOmQpIJga/" class="ctag ctag-4 ctag-OOmQpIJga" aria-label="">Gridea</a>
+                    
+                      <a href="https://Jason-summer.github.io/tag/board/" class="ctag ctag-5 ctag-board" aria-label="">告示</a>
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
 
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://Jason-summer.github.io/images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">夏元素的避风塘</a></h4>
+                    <p class="founder">理想生活+</p>
+                    <div class="social">
+                      
+                          
+                            <a href="https://github.com/Jason-summer" class="translate-effect" target="_blank"><i class="fa fa-github"></i></a>
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
 
-      var gitalk = new Gitalk({
-        clientID: 'd58ad16ad66ee00d3bc5',
-        clientSecret: 'ac26e1eeae0d0cb7e660f5cfe7d5139eea8fb3fd',
-        repo: 'Jason-summer.github.io',
-        owner: 'Jason-summer',
-        admin: ['Jason-summer'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+            </div>
+            <div class="clear"></div>
+        </div>
 
-      gitalk.render('gitalk-container')
+        <div class="logo">
+          <a href="https://Jason-summer.github.io"><img src="/media/images/gridea.png" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 14 篇文章
+          <br/>
+          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
+        
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
+        </a>
+    </footer>
+    
+    <div class="clear"></div>
 
-    </script>
-  
+        
 
-  
+      
+    <script src="https://Jason-summer.github.io/media/js/functions-post.js"></script>
 
-
-
-
+    </div>
+    <!-- end: #wrapper -->
   </body>
 </html>
