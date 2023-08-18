@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Jason-summer.github.io</id>
+    <title>Gridea</title>
+    <updated>2023-08-18T08:21:33.091Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Jason-summer.github.io"/>
+    <link rel="self" href="https://Jason-summer.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://Jason-summer.github.io/images/avatar.png</logo>
+    <icon>https://Jason-summer.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[ReNEW Again!]]></title>
+        <id>https://Jason-summer.github.io/post/JVR34rIC_/</id>
+        <link href="https://Jason-summer.github.io/post/JVR34rIC_/">
+        </link>
+        <updated>2023-08-18T08:14:48.000Z</updated>
+        <content type="html"><![CDATA[<p>从这条开始，继续博客的更新。把一些研究成功都写上来。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从 Android Studio 开始你的编程之路吧🧐]]></title>
+        <id>https://Jason-summer.github.io/post/cong-android-studio-kai-shi-ni-de-bian-cheng-zhi-lu-ba/</id>
+        <link href="https://Jason-summer.github.io/post/cong-android-studio-kai-shi-ni-de-bian-cheng-zhi-lu-ba/">
+        </link>
+        <updated>2021-09-01T04:07:01.000Z</updated>
+        <content type="html"><![CDATA[<article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <blockquote>
+<p>@牛顿：我和那些孩童没有什么区别，我不过是一个在沙滩上拾起贝壳研究的孩子，在真理之海面前瑟瑟发抖。</p>
+</blockquote>
+<h2 id="建立你的第一个工程project">建立你的第一个工程（project）</h2>
+<h3 id="新建工程">新建工程</h3>
+<ul>
+<li>请注意：在 Android Studio 4.0 预览版中我无法启动离线模式，所以接下来的内容基于 3.5.3 版本。<br>
+包名：用网址以区分应用程序，请把 example.android.com 改成你自己的网站。<br>
+语言：请将 Kotlin 改为 Java。使用 Kotlin 开发 Android 应用，使用 Kotlin 更快地编写更出色的 Android 应用。Kotlin 是一种静态类型的现代编程语言，不仅可以帮助您提高工作效率，而且还能让开发者工作起来更开心。<br>
+最小SDK等级：你想创建的应用程序最低支持的安卓版本，请注意，如果SDK太小你可能无法使用很多新功能。<a href="http://en.wikipedia.org/wiki/Android_version_history">Android 版本历史 | 维基百科</a></li>
+</ul>
+<p>这个工程文件涵盖了 Java、XML、图片、音频之类的各种文件。</p>
+<h3 id="解决来自-gradle-奇奇怪怪的问题难点">解决来自 gradle 奇奇怪怪的问题（难点）</h3>
+<p>第一次使用时 gradle 需要同步一段时间，有点久。你可以看到下面这个通知栏，当它不再有一个圈转来转去的时候就完成了，这时 Build 栏里也没有圈圈了，于是我们可以把它关掉。左边是类似于资源管理器的树状文件结构，请找到并双击 app→res→layout→activity_mail.xml，把右边的更新内容也关掉，就可以看到 Preview 了。中间是类似于记事本的编辑区，请点击下方的 Text 查看和编辑代码。如果你遇到有关 gradle 的问题，这里有一些解决方法。来源：https://cloud.tencent.com/developer/article/1523424</p>
+<h2 id="开始吧在你的手机或者模拟器上运行难点">开始吧！在你的手机或者模拟器上运行（难点）</h2>
+<h3 id="复习一些知识">复习一些知识</h3>
+<p>xmlns 用于声明以下内容适用于安卓，因为 XML 语言也运用于制作网页或者其他功能。http://stackoverflow.com/questions/1181888/what-does-xmlns-in-xml-mean<br>
+setting→Editor→Font 调整编辑器的字体和大小</p>
+<ul>
+<li>这里给你一点建议。为了流畅的使用 Android Studio，最好把其他程序都关掉，将电脑（尤其是笔记本）调整至高性能模式。然后在手机上查看此教程。<br>
+然后让我们在模拟器或者手机上运行吧。</li>
+<li>小建议：如果你的电脑卡得出翔，那最好还是不要使用模拟器了，用手机吧。比如我用三星a60，因为我的电脑是差不多十年前的ASUS，尽管4G内存，处理器也力不从心。</li>
+</ul>
+<h3 id="在手机上运行">在手机上运行</h3>
+<p>请参考：https://developer.android.google.cn/studio/run/device<br>
+确认绿色的运行左边的框里写的是你的手机型号，那表示连接成功了。<br>
+成功运行！<br>
+如果没有成功也不要灰心，试着在网上找找答案。有一种说法是要在设置的Android SDK 中安装手机对应的版本，但是我的安卓9也没安装啊😂，反而是装了安卓10。还有一种说法是要到设备管理器中找到 ADB 设备并右键更新。</p>
+<ul>
+<li>我的运行方式：安装三星的驱动，打开USB调试，连上电脑一会儿就好了😊。<br>
+尝试完成后请别忘记中止。</li>
+</ul>
+<h3 id="在模拟器上运行">在模拟器上运行</h3>
+<p>操作指南：https://developer.android.google.cn/studio/run/emulator</p>
+<h2 id="校检后补充一段时间后">校检后补充（一段时间后）</h2>
+<p>事实证明 Android Studio 4.0 Preview 也是可以使用离线模式的。但是 4.0 的代码补全有一些问题，它补全的不是接下来的属性名，而是属性的属性的属性……（一直到底那一种）所以目前不是很方便使用。</p>
+<pre><code>            &lt;/div&gt;
+            &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+          &lt;/section&gt;
+        &lt;/article&gt;
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在国内，如何离线使用 Android Studio🧐?]]></title>
+        <id>https://Jason-summer.github.io/post/zai-guo-nei-ru-he-chi-xian-shi-yong-android-studio/</id>
+        <link href="https://Jason-summer.github.io/post/zai-guo-nei-ru-he-chi-xian-shi-yong-android-studio/">
+        </link>
+        <updated>2021-09-01T04:05:59.000Z</updated>
+        <content type="html"><![CDATA[<article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <blockquote>
+<p>由于一些众所周知的原因，在国内无法访问很多谷歌的服务以及网站。但，有志者，事竟成，我们总会有办法解决遇到的问题的。由于优达学城的这个视频的教程是很早以前录制的了，很多玩意儿上不去，那就跟随我的步伐，在<s>光滑的地上摩擦</s> <a href="https://developer.android.google.cn" target="_blank">Android 中国开发者</a>的帮助下解决问题吧。</p>
+</blockquote>
+<p>下面的内容来源纷繁，你可以查看这个目录知悉内容的来源。</p>
+<ol>
+<li>原创：下载并安装 Android Studio</li>
+<li><strong>@ Android Developer：</strong> 配置离线编译依赖项</li>
+<li><strong>@ Android Developer：</strong>（可选）针对低内存计算机配置 Android Studio</li>
+<li><strong>@ Android Developer：</strong>（可选）在 Windows 上优化 Android Studio 性能</li>
+<li><strong>@ Android Developer：</strong> 开发者工作流程基础知识</li>
+</ol>
+<h2 id="下载并安装-android-studio">下载并安装 Android Studio</h2>
+<p>打开 <a href="https://Jason-summer.github.io/post-images/1585924068221.png">Android Studio 官方网站</a><br>
+如果你愿意承担风险，乐意解决问题，我建议你下载预览版 Android Studio，它会有许多还在测试中的新鲜功能。<br>
+<img src="https://Jason-summer.github.io/post-images/1585923965023.png" alt="Android Studio Preview 官网" loading="lazy"><br>
+请确保你的电脑满足 Android Studio 对系统的运行要求，以免出现像无法启动之类的问题。<br>
+<img src="https://Jason-summer.github.io/post-images/1585923928597.png" alt="运行需求" loading="lazy"><br>
+还没有结束，由于创建安卓应用程序需要流畅地连接至国际互联网，大多数人无法到达这个需求，所以我们还需要做一些事情。接下来三个小节的内容摘选自谷歌的<a href="https://developer.android.google.cn/studio/intro/studio-config#offline">安卓开发者文档</a>。</p>
+<h2 id="配置离线编译依赖项">配置离线编译依赖项</h2>
+<p>如果您想在没有网络连接的情况下编译项目，请按照以下步骤配置 Android Studio，以使用 Android Gradle 插件和 Google Maven 依赖项的离线版本。</p>
+<p>如果您尚未下载的话，请从下载页面<a href="https://developer.android.google.cn/r/studio-offline/downloads">下载离线组件</a>。</p>
+<h3 id="下载并解压缩离线组件">下载并解压缩离线组件</h3>
+<p>下载离线组件后，将其内容解压缩到以下目录中，如果该目录尚不存在，您可能需要创建该目录：</p>
+<ul>
+<li>在 Windows 上：<code>%USER_HOME%/.android/manual-offline-m2/</code></li>
+<li>在 macOS 和 Linux 上：<code>~/.android/manual-offline-m2/</code></li>
+</ul>
+<p>要更新离线组件，请按以下步骤操作：</p>
+<ol>
+<li>删除  <code>manual-offline-m2/</code>  目录中的内容。</li>
+<li>重新下载<a href="https://developer.android.google.cn/r/studio-offline/downloads">离线组件</a>。</li>
+<li>将所下载的 ZIP 文件的内容解压缩到  <code>manual-offline-m2/</code>  目录中。</li>
+</ol>
+<h3 id="在-gradle-项目中添加离线组件">在 Gradle 项目中添加离线组件</h3>
+<p>要告知 Android 编译系统使用您已下载并解压缩的离线组件，您需要创建一个脚本（如下所述）。请注意，即使在更新离线组件之后，您也只需创建并保存此脚本一次。</p>
+<ol>
+<li>
+<p>使用以下路径和文件名创建一个空文本文件：</p>
+<ul>
+<li>在 Windows 上：<code>%USER_HOME%/.gradle/init.d/offline.gradle</code></li>
+<li>在 macOS 和 Linux 上：<code>~/.gradle/init.d/offline.gradle</code></li>
+</ul>
+</li>
+<li>
+<p>打开该文本文件并添加以下脚本：</p>
+<div class="code-toolbar"><pre class=" language-groovy"><code class=" language-groovy">def reposDir = new File(System.properties['user.home'], ".android/manual-offline-m2")
+    def repos = new ArrayList()
+    reposDir.eachDir {repos.add(it) }
+    repos.sort()
+<pre><code>allprojects {
+  buildscript {
+    repositories {
+      for (repo in repos) {
+        maven {
+          name = &quot;injected_offline_${repo.name}&quot;
+          url = repo.toURI().toURL()
+        }
+      }
+    }
+  }
+  repositories {      
+    for (repo in repos) {        
+      maven {          
+        name = &quot;injected_offline_${repo.name}&quot;            
+        url = repo.toURI().toURL()          
+      }        
+    }      
+  }    
+}    
+</code></pre>
+<p></code></pre><div class="toolbar"><div class="toolbar-item"><span>Groovy</span></div><div class="toolbar-item"><button>Copy</button></div></div></div></p>
+</li>
+<li>
+<p>保存该文本文件。</p>
+</li>
+<li>
+<p>（可选）如果您想要验证离线组件是否运行正常，请从项目的  <code>build.gradle</code>  文件中移除在线代码库（如下所示）。在确认项目不使用这些代码库也能正确编译之后，您可以将它们放回到  <code>build.gradle</code>  文件中。</p>
+<div class="code-toolbar"><pre class=" language-groovy"><code class=" language-groovy">buildscript {
+        repositories {
+            // Hide these repositories to test your build against            
+            // the offline components. You can include them again after            
+            // you've confirmed that your project builds ‘offline’.            
+            // google()            
+            // jcenter()        
+        }        
+        ...    
+    }    
+    allprojects {
+        repositories {        
+            // google()            
+            // jcenter()        
+        }        
+        ...    
+    }    
+</code></pre><div class="toolbar"><div class="toolbar-item"><span>Groovy</span></div><div class="toolbar-item"><button>Copy</button></div></div></div>
+</li>
+</ol>
+<p><strong>注意：</strong> 此脚本会影响您在工作站上打开的所有 Gradle 项目。</p>
+<h2 id="可选针对低内存计算机配置-android-studio">（可选）针对低内存计算机配置 Android Studio</h2>
+<p>如果您要在低于建议规格（请参阅<a href="https://developer.android.google.cn/studio#Requirements">系统要求</a>）的计算机上运行 Android Studio，则可以按如下方式自定义 Android Studio 以提升它在计算机上的性能：</p>
+<ul>
+<li>
+<p><strong>减小 Android Studio 可用的最大堆大小</strong>：将 Android Studio 的最大堆大小减小至 512Mb。要详细了解如何更改最大堆大小，请参阅<a href="https://developer.android.google.cn/studio/intro/studio-config#adjusting_heap_size">最大堆大小</a>。</p>
+</li>
+<li>
+<p><strong>更新 Gradle 和 Android Plugin for Gradle</strong>：更新至最新版本的 Gradle 和 Android Plugin for Gradle，以确保您能利用最新的性能改进。要详细了解如何更新 Gradle 和 Android Plugin for Gradle，请参阅  <a href="https://developer.android.google.cn/studio/releases/gradle-plugin">Android Plugin for Gradle 版本说明</a>。</p>
+</li>
+<li>
+<p><strong>启用节能模式</strong>：启用节能模式会关闭一系列消耗大量内存和电池的后台操作，包括错误突出显示和动态检查、自动弹出式代码完成和自动增量式后台编译。要开启节能模式，请依次点击  <strong>File &gt; Power Save Mode</strong>。</p>
+</li>
+<li>
+<p><strong>停用不必要的 lint 检查</strong>：要更改 Android Studio 在您的代码上运行的 lint 检查，请执行以下操作：</p>
+<ol>
+<li>依次点击  <strong>File &gt; Settings</strong>（在 macOS 上，依次点击  <strong>Android Studio &gt; Preferences</strong>）以打开  <strong>Settings</strong>  对话框。</li>
+<li>在左侧窗格中，展开  <strong>Editor</strong>  部分，然后点击  <strong>Inspections</strong>。</li>
+<li>点击相应的复选框以选中或取消选中适合项目的 lint 检查。</li>
+<li>点击  <strong>Apply</strong>  或 OK <strong>以保存所做的更改。</strong></li>
+</ol>
+</li>
+<li>
+<p><strong>在实际设备上调试</strong>：在模拟器上调试使用的内存比在实际设备上调试使用的内存更多，因此您可以通过<a href="https://developer.android.google.cn/studio/run/device">在实际设备上调试</a>来提升 Android Studio 的总体性能。</p>
+</li>
+<li>
+<p><strong>仅将必要的 Google Play 服务作为依赖项包含在内</strong>：将 Google Play 服务作为依赖项包含在项目中会增加所需的内存量。仅添加必要的依赖项以提高内存利用率和性能。如需了解详情，请参阅<a href="https://developers.google.cn/android/guides/setup#add_google_play_services_to_your_project">将 Google Play 服务添加到您的项目中</a>。</p>
+</li>
+<li>
+<p><strong>开启 Gradle 的离线模式</strong>：如果您的带宽有限，请开启离线模式，以防 Gradle 在您编译期间尝试下载缺失的依赖项。离线模式开启时，Gradle 会在您缺少任何依赖项时发出编译故障，而不会尝试下载它们。要开启离线模式，请执行以下操作：</p>
+<ol start="2">
+<li>依次点击  <strong>File &gt; Settings</strong>（在 macOS 上，依次点击  <strong>Android Studio &gt; Preferences</strong>）以打开  <strong>Settings</strong>  对话框。</li>
+<li>在左侧窗格中，展开  <strong>Build, Execution, Deployment</strong>，然后点击  <strong>Gradle</strong>。</li>
+<li>在 Global Gradle 设置下，选中  <strong>Offline work</strong>  复选框。</li>
+<li><strong>点击  <strong>Apply</strong>  或</strong> OK <strong>以保存所做的更改。</strong></li>
+</ol>
+</li>
+<li>
+<p><strong>减少可用于 Gradle 的最大堆大小</strong>：Gradle 的默认最大堆大小为 1536 MB。您可以通过替换  <code>gradle.properties</code>  文件中的  <code>org.gradle.jvmargs</code>  属性来减小此值，如下所示：</p>
+<div class="code-toolbar"><pre class=" language-groovy"><code class=" language-groovy"># Make sure to gradually decrease this value and note
+    # changes in performance. Allocating too lttle memory may
+    # also decrease performance.    
+    org.gradle.jvmargs = -Xmx1536m    
+</code></pre><div class="toolbar"><div class="toolbar-item"><span>Groovy</span></div><div class="toolbar-item"><button>Copy</button></div></div></div>
+</li>
+<li>
+<p><strong>不要启用并行编译</strong>：Android Studio 可以并行编译独立模块，但如果您使用的是低内存系统，则不应启用此功能。要检查此设置，请执行以下操作：</p>
+<ol>
+<li>依次点击  <strong>File &gt; Settings</strong>（在 macOS 上，依次点击  <strong>Android Studio &gt; Preferences</strong>）以打开  <strong>Settings</strong>  对话框。</li>
+<li>在左侧窗格中，展开  <strong>Build, Execution, Deployment</strong>，然后点击  <strong>Compiler</strong>。</li>
+<li>确保  <strong>Compile independent modules in parallel</strong>  选项未选中。</li>
+<li>如果您进行了更改，请点击  <strong>Apply</strong>  或  <strong>OK</strong>  以使更改生效。</li>
+</ol>
+</li>
+</ul>
+<h2 id="可选在-windows-上优化-android-studio-性能">（可选）在 Windows 上优化 Android Studio 性能</h2>
+<p>Windows 上的 Android Studio 性能可能会受多种因素的影响。本节将介绍如何优化 Android Studio 设置以在 Windows 上获得最佳性能。</p>
+<h3 id="最大限度地降低防病毒软件对编译速度的影响">最大限度地降低防病毒软件对编译速度的影响</h3>
+<p>某些防病毒软件会干扰 Android Studio 编译流程，从而导致编译版本运行速度明显变慢。当您在 Android Studio 中运行编译版本时，Gradle 会编译应用的资源和源代码，然后将编译后的资源打包在一个 APK 中。在此流程中，系统会在计算机上创建多个文件。如果您的防病毒软件启用了实时扫描功能，那么在每次创建一个文件后，防病毒软件都会扫描该文件，并强制要求暂停编译流程。</p>
+<p>要避免此问题，您可以在防病毒软件中排除对某些目录的实时扫描。</p>
+<p><strong>注意</strong>：为了确保计算机免受恶意软件的侵扰，您不应完全停用实时扫描或防病毒软件。</p>
+<p>以下列表显示了您应从实时扫描中排除的每个 Android Studio 目录的默认位置：</p>
+<p>Gradle 缓存</p>
+<p><code>%USERPROFILE%\.gradle</code></p>
+<p>Android Studio 项目</p>
+<p><code>%USERPROFILE%\AndroidStudioProjects</code></p>
+<p>Android SDK</p>
+<p><code>%USERPROFILE%\AppData\Local\Android\SDK</code></p>
+<p>Android Studio 系统文件</p>
+<p><code>%USERPROFILE%\.AndroidStudio&lt;version&gt;\system</code></p>
+<h4 id="为组策略受控环境自定义目录位置">为组策略受控环境自定义目录位置</h4>
+<p>如果组策略会限制您可以从计算机中排除实时扫描的目录，您可以将 Android Studio 目录移至集中式组策略已排除的某个位置。</p>
+<p>以下列表显示了如何自定义每个 Android Studio 目录的位置，其中  <code>C:\WorkFolder</code>  是您的组策略已排除的目录：</p>
+<p>Gradle 缓存</p>
+<p>将  <code>GRADLE_USER_HOME</code>  环境变量定义为指向<code>C:\WorkFolder\.gradle</code>。</p>
+<p>Android Studio 项目</p>
+<p>将项目目录移到  <code>C:\WorkFolder</code>  的相应子目录中或在其中创建项目目录。例如：<code>C:\WorkFolder\AndroidStudioProjects</code>。</p>
+<p>Android SDK</p>
+<p>请按以下步骤操作：</p>
+<ol>
+<li>
+<p>在 Android Studio 中，打开  <strong>Settings</strong>  对话框（在 macOS 上，打开  <strong>Preferences</strong>），然后依次转到  <strong>Appearance &amp; Behavior &gt; System Settings &gt; Android SDK</strong>。</p>
+</li>
+<li>
+<p>将  <strong>Android SDK Location</strong>  的值更改为  <code>C:\WorkFolder\AndroidSDK</code>。</p>
+<p>为避免再次下载该 SDK，请确保将默认位于  <code>%USERPROFILE%\AppData\Local\Android\SDK</code>  下的现有 SDK 目录复制到新位置。</p>
+</li>
+</ol>
+<p>Android Studio 系统文件</p>
+<p>请按以下步骤操作：</p>
+<ol>
+<li>
+<p>在 Android Studio 中，依次点击  <strong>Help &gt; Edit Custom Properties</strong>。</p>
+<p>Android Studio 会提示您创建一个  <code>idea.properties</code>  文件（如果尚未创建）。</p>
+</li>
+<li>
+<p>将以下行添加到  <code>idea.properties</code>  文件中：</p>
+</li>
+</ol>
+<pre><code>idea.system.path=c:/workfolder/studio/caches/trunk-system
+</code></pre>
+<h2 id="开发者工作流程基础知识">开发者工作流程基础知识</h2>
+<p>从概念上来讲，Android 应用的开发工作流程与其他应用平台相同。不过，要想高效地编译精心设计的 Android 应用，您需要用到一些专业工具。以下列表概述了构建 Android 应用的流程，并添加了指向部分 Android Studio 工具（在开发流程的每个阶段，您应该都会用到这些工具）的链接。</p>
+<figure data-type="image" tabindex="1"><a href="https://jason-summer.github.io/post-images/1585923458926.png"><img src="https://Jason-summer.github.io/post-images/1585923458926.png" alt="工作流基础知识" loading="lazy"></a></figure>
+<ol>
+<li>
+<p><strong>设置工作区</strong></p>
+<p>这是您可能已经完成的阶段：<a href="https://developer.android.google.cn/studio">安装 Android Studio</a>  和<a href="https://developer.android.google.cn/studio/projects/create-project">创建项目</a>。</p>
+<p>要查看介绍部分 Android 开发基础知识的 Android Studio 演示，您也可以参阅<a href="https://developer.android.google.cn/training/basics/firstapp">构建您的首个应用</a>指南。</p>
+</li>
+<li>
+<p><strong>编写您的应用</strong></p>
+<p>现在您可以开始编写了。Android Studio 包含多种工具和智能功能，可帮助您更快速地编写应用、编写高质量的代码、设计界面以及为不同的设备类型创建资源。如需详细了解可用的工具和功能，请参阅<a href="https://developer.android.google.cn/studio/write">编写应用</a>。</p>
+</li>
+<li>
+<p><strong>构建并运行</strong></p>
+<p>在此阶段，您可以将项目构建成一个可调试的 APK 软件包，以便在模拟器或 Android 设备上安装和运行。如需详细了解如何运行代码，请参阅<a href="https://developer.android.google.cn/studio/run">构建和运行应用</a>。</p>
+<p>您也可以开始自定义构建。例如，您可以<a href="https://developer.android.google.cn/studio/build/build-variants">创建构建变体</a>以根据同一项目生成不同类型的 APK，然后<a href="https://developer.android.google.cn/studio/build/shrink-code">压缩代码和资源</a>以缩小您的 APK 文件。有关如何自定义构建的说明，请参阅<a href="https://developer.android.google.cn/studio/build">配置构建</a>。</p>
+</li>
+<li>
+<p><strong>调试、分析和测试</strong></p>
+<p>在这个迭代阶段，您可以继续编写应用，但精力侧重于消除错误并优化应用性能。当然，创建测试可以帮助您完成这些工作。</p>
+<p>有关基本调试任务的信息，请阅读<a href="https://developer.android.google.cn/studio/debug">调试应用</a>以及<a href="https://developer.android.google.cn/studio/debug/am-logcat">编写和查看日志</a>。</p>
+<p>要查看和分析各种性能指标（如内存使用情况、网络流量、CPU 影响等），请参阅<a href="https://developer.android.google.cn/studio/profile">性能分析工具</a>。</p>
+<p>有关如何构建测试的说明，请参阅<a href="https://developer.android.google.cn/studio/test">测试应用</a>。</p>
+</li>
+<li>
+<p><strong>发布</strong></p>
+<p>当您准备好向用户发布应用时，还需要考虑一些其他因素，例如管理应用版本和使用密钥为应用签名。如需了解详情，请参阅<a href="https://developer.android.google.cn/studio/publish">发布您的应用</a>。</p>
+</li>
+</ol>
+<pre><code>            &lt;/div&gt;
+            &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+          &lt;/section&gt;
+        &lt;/article&gt;
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“避风港”的诞生日记]]></title>
+        <id>https://Jason-summer.github.io/post/bi-feng-gang-de-dan-sheng-ri-ji/</id>
+        <link href="https://Jason-summer.github.io/post/bi-feng-gang-de-dan-sheng-ri-ji/">
+        </link>
+        <updated>2021-09-01T04:05:20.000Z</updated>
+        <summary type="html"><![CDATA[<article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <blockquote>
+<p>“避风港”是只属于我一个人<s>狂欢的 party</s>宁静的、安全的港湾，在我烦闷的时候（将会）给我带来快乐。现在，如果你看到了这里，那请姑且让我占用你一点时间，来讲讲这个“避风港”的建立过程吧🙂。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <blockquote>
+<p>“避风港”是只属于我一个人<s>狂欢的 party</s>宁静的、安全的港湾，在我烦闷的时候（将会）给我带来快乐。现在，如果你看到了这里，那请姑且让我占用你一点时间，来讲讲这个“避风港”的建立过程吧🙂。</p>
+</blockquote>
+<!-- more -->
+<h2 id="初识博客">初识博客</h2>
+<p>2020/4/3，从大概小学五六年级的时候开始，我就使用QQ空间作为我的博客😂，我在QQ空间的日志那里写小说，后来还被我的同学看见了（致命打击）。真正开始使用QQ空间是在刚上初中的时候，那时候我发了两句歌词来怀念我小学毕业（十分做作的行为），后来初中也没少发说说。上了高中更是频繁，特别是还有一堆社团活动转发什么的……</p>
+<h2 id="知识焦虑">知识焦虑</h2>
+<p>挺久之前看少数派时有见过讲如何建立自己的个人网站和博客的教程，但是当时我没有采纳。事实是，当时我对少数派上说的很多东西都感到挺疑惑的，比如什么“工作流”（这个倒是在高中电视台里学习 Pr 的时候认识了）啊，“知识库”啊，“数字焦虑”和“数字健康”啊……然后当时我的想法是，这都什么玩意，瞎 JB 扯淡吧。现在我要为当时的无知道歉🙇。</p>
+<p>当我（周末和在疫情期间）被QQ上疯狂闪烁的小红点和99+差点搞成傻逼，我开始理解<strong>数字焦虑</strong>；当我刷完酷安开始刷少数派，然后是品玩、36kr和爱范儿……看一下时间发现到点睡觉了，再看看我电脑和手机前面的一沓沓没写完的作业📕，我是关注<strong>时间管理</strong>；当我发现我的账户体系一片混乱（尽管这也和目前国内的账户生态有关），有时候打开一个网站我甚至不知道我应该用手机号还是QQ登录（因为我不知道当时我是用什么注册的，甚至可能有些网站一开始没有QQ登录的选项后来又加入了，或者把入口埋得很深），而且即便打开了我也不知道我想要找的文件在哪一个网站的哪一个文件夹里面（更或者，每次在一台新设备上登陆 GitHub 或者 Steam 这种密码要求较高的网站的时候我总是想不起密码是什么😋，然后依稀记得我把密码记在了某个地方，但是我却不记得记在了哪里），我开始渴望<strong>知识库</strong>的构建。</p>
+<p>当我亲身经历，我才发现这些东西不是空谈。我在学校上学的时候，每逢周六放假我总是不愿意回家，因为我知道一旦我回去，迎接我的会是海量的信息，我不知道从哪里开始看起。我甚至享受脱离手机和网络的生活，享受纸质书和图书馆的实体书带给我的快乐。</p>
+<h2 id="避风港湾">避风港湾</h2>
+<p>为了在互联网世界给自己留一块心灵空间，我先是尝试在<strong>语雀</strong>上建立我的知识库，同时印象笔记也是我的知识库的一部分，毕竟剪藏太好用了，就是每个月 60m 有点难以忍受。一天后（没错也就是今天😉），我遵循之前在少数派看到的文章开始尝试建立博客，然后就发现了 Gridea 这款宝藏般的博客管理软件，还有教程，跟着一步步走，在 Github Pages 上建立了网站，然后成功搭载了 Gridea 的服务。又用了一两个小时研究 Gitalk 评论系统（目前应该还是在被限流当中，你可以查看<strong>目前顶置</strong>的告示了解详情），终于上线了这个博客“夏元素的避风港”。</p>
+<p>目前还不是很完善，只能作为 Github Pages 的一个子域名使用，所以接下来，我需要找到一个免费🤭的网址链接上我的博客。想想虽然 Github 有被墙抽风的可能，但我着实不太想被莫名其妙的审查然后“网站爆炸”，所以还是不用腾讯收购的 Coding（其实我挺喜欢的）或者 Gitee 了。</p>
+<h2 id="故事尾声">故事尾声</h2>
+<p>讲个人经历总得有个结尾吧😏？那么，希望在接下来的时光里我能继续我探索世界的旅程。如果在你看到了我的这篇文章后颇有感概（或者哪怕只有那么一点），那也不枉我写的这篇文章了。作为第一批使用的用户，我想起<strong>给未来写封信</strong>这个 application 的开屏图上的话：</p>
+<h1 id="多年以后愿你不负所期">多年以后，愿你不负所期。</h1>
+<p>2020年4月3日<br>
+网名：夏元素</p>
+<pre><code>            &lt;/div&gt;
+            &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+          &lt;/section&gt;
+        &lt;/article&gt;
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何在 Markdown 中插入视频和音频]]></title>
+        <id>https://Jason-summer.github.io/post/ru-he-zai-markdown-zhong-cha-ru-shi-pin-he-yin-pin/</id>
+        <link href="https://Jason-summer.github.io/post/ru-he-zai-markdown-zhong-cha-ru-shi-pin-he-yin-pin/">
+        </link>
+        <updated>2021-09-01T04:04:49.000Z</updated>
+        <content type="html"><![CDATA[<section class="post-content">
+                <div class="text">
+                  <blockquote>
+<p>本篇文章的受众是那些没有 xml 基础，并且像我一样🤣只会基础 Markdown 的小白。</p>
+</blockquote>
+<h2 id="插入音乐">插入音乐</h2>
+<blockquote>
+<p>请注意版权问题，避免版权纠纷！！！以下出现的视频和音频仅供示例，请勿用作其他用途。</p>
+</blockquote>
+<h3 id="使用-html">使用 html</h3>
+<audio id="audio" controls="" preload="none">
+      <source id="m4a" src="https://gitee.com/WhiteMountain/blog-resources/raw/master/%E6%96%B9%E5%9C%86%E5%87%A0%E9%87%8C%20-%20%E8%96%9B%E4%B9%8B%E8%B0%A6.m4a">
+      </audio> 
+<p>//这是薛之谦的方圆几里，仅供示例使用，请勿用作其他用途。</p>
+<div class="code-toolbar"><pre class=" language-xml"><code class=" language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>audio</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>audio<span class="token punctuation">"</span></span> <span class="token attr-name">controls</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">preload</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>none<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>source</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>m4a<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://gitee.com/WhiteMountain/blog-resources/raw/master/%E6%96%B9%E5%9C%86%E5%87%A0%E9%87%8C%20-%20%E8%96%9B%E4%B9%8B%E8%B0%A6.m4a<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>audio</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="toolbar"><div class="toolbar-item"><span>XML</span></div><div class="toolbar-item"><button>Copy</button></div></div></div>
+<p><code>&lt;audio&gt;</code>标签常用属性如下表</p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>autoplay</td>
+<td>autoplay</td>
+<td>添加该属性后，音频会自动播放</td>
+</tr>
+<tr>
+<td>controls</td>
+<td>controls</td>
+<td>设置后，显示控件，如播放按钮、音量</td>
+</tr>
+<tr>
+<td>loop</td>
+<td>loop</td>
+<td>添加该属性后，当音频播放结束后会重新开始播放</td>
+</tr>
+<tr>
+<td>preload</td>
+<td>preload</td>
+<td>音频显示页面加载，准备播放，如已添加autoplay,则忽略该属性</td>
+</tr>
+<tr>
+<td>src</td>
+<td>url</td>
+<td>播放音频的URL（地址）。</td>
+</tr>
+</tbody>
+</table>
+<p>插入这首歌只是复制粘贴几行代码的事情，并不算难，困难的部分在于找到一个 source 放置你的歌曲且能直接访问。这里我使用了以下几种方法。</p>
+<p>方法一、上传到 Github，new repositories，然后上传文件。然后复制文件页面<strong>Download</strong>按钮的链接，例如<code>https://raw.githubusercontent.com/Jason-summer/blog-resources/master/%E6%96%B9%E5%9C%86%E5%87%A0%E9%87%8C%20-%20%E8%96%9B%E4%B9%8B%E8%B0%A6.m4a</code>。坏处是 GitHub 极其不稳定，想要访问这个文件需要科学上网，那就不适用于我们了。</p>
+<p>方法二、尽然 GitHub 不行，我们就更换一个代码托管平台呗。国内的平台有 Gitee 和 Coding 等，操作方法与 GitHub 的大同小异。</p>
+<p>方法三、上传到个人云盘，然后分享。</p>
+<h3 id="使用各个音乐平台提供的插件">使用各个音乐平台提供的插件</h3>
+<p>网易云音乐提供了将音乐生成外链（某些版权歌曲不可）的插件。访问网易云的网页，在某首歌曲的详情页有<strong>生成外链播放器</strong>，接下来只要把获得的代码插入 Markdown 中就行了。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=27955658&amp;auto=0&amp;height=66"></iframe>
+<p><embed src="//music.163.com/style/swf/widget.swf?sid=27955658&amp;type=2&amp;auto=0&amp;width=320&amp;height=66" width="340" height="86" allownetworking="all"></p>
+<h2 id="插入视频">插入视频</h2>
+<p>你可以把视频存进你的网盘，然后通过分享的方式，在分享页面用一些特殊的方法[^1]找到视频地址。不过一般来说网盘中的视频地址不久就会改变，所以很有可能失效。</p>
+<video id="video" controls="" preload="none" poster="https://i.vimeocdn.com/video/862586401_640x360.jpg">
+      <source id="mp4" src="https://gzc-download.weiyun.com/ftn_handler/4172f99714837bfe77b3284a78733bfb4c12550b163ca17bc4f52aaff067fb04/Iceland%20-%2033191-1.mp4?fname=Iceland%20-%2033191-1.mp4&amp;from=30111&amp;version=3.3.3.3" type="video/mp4">
+      </video>
+<p>该视频由<a href="https://pixabay.com/zh/users/Roberto2016-2122248/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=33191">Roberto D'Amico</a>在<a href="https://pixabay.com/zh/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=33191">Pixabay</a>上发布</p>
+<div class="code-toolbar"><pre class=" language-xml"><code class=" language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>video</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>video<span class="token punctuation">"</span></span> <span class="token attr-name">controls</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">preload</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>none<span class="token punctuation">"</span></span> <span class="token attr-name">poster</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://i.vimeocdn.com/video/862586401_640x360.jpg<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>source</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mp4<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://gzc-download.weiyun.com/ftn_handler/4172f99714837bfe77b3284a78733bfb4c12550b163ca17bc4f52aaff067fb04/Iceland%20-%2033191-1.mp4?fname=Iceland%20-%2033191-1.mp4&amp;from=30111&amp;version=3.3.3.3<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>video/mp4<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>video</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="toolbar"><div class="toolbar-item"><span>XML</span></div><div class="toolbar-item"><button>Copy</button></div></div></div>
+<p>如果你有视频在互联网上的地址的话，你可以使用链接直接播放。</p>
+<video id="video" controls="" preload="none" poster="https://wedistill.io/uploads/thumbnails/34/Adrift-HD.mp4-poster.png">
+      <source id="mp4" src="https://wedistill.io/uploads/videos/processed/34/Adrift-HD.mp4.mp4" type="video/mp4">
+      </video>
+<div class="code-toolbar"><pre class=" language-xml"><code class=" language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>video</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>video<span class="token punctuation">"</span></span> <span class="token attr-name">controls</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">preload</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>none<span class="token punctuation">"</span></span> <span class="token attr-name">poster</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://wedistill.io/uploads/thumbnails/34/Adrift-HD.mp4-poster.png<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>source</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mp4<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://wedistill.io/uploads/videos/processed/34/Adrift-HD.mp4.mp4<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>video/mp4<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>video</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="toolbar"><div class="toolbar-item"><span>XML</span></div><div class="toolbar-item"><button>Copy</button></div></div></div>
+<p>Made by <a href="http://www.createthebridge.com/">Create the Bridge</a></p>
+<p>当然，还得考虑原视频会不会下架、消失，所以最好还是存进自己的仓库吧（注意版权问题）。</p>
+<video id="video" controls="" preload="none" poster="https://gitee.com/WhiteMountain/blog-resources/raw/master/Adrift-HD.mp4-poster.png">
+      <source id="mp4" src="https://gitee.com/WhiteMountain/blog-resources/raw/master/Adrift-HD.mp4.mp4" type="video/mp4">
+      </video>
+<div class="code-toolbar"><pre class=" language-xml"><code class=" language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>video</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>video<span class="token punctuation">"</span></span> <span class="token attr-name">controls</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">preload</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>none<span class="token punctuation">"</span></span> <span class="token attr-name">poster</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://gitee.com/WhiteMountain/blog-resources/raw/master/Adrift-HD.mp4-poster.png<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>source</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>mp4<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://gitee.com/WhiteMountain/blog-resources/raw/master/Adrift-HD.mp4.mp4<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>video/mp4<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>video</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="toolbar"><div class="toolbar-item"><span>XML</span></div><div class="toolbar-item"><button>Copy</button></div></div></div>
+<p>部分内容来源：http://blog.fandong.me/2017/08/25/Markdown-Advance/<br>
+https://www.cnblogs.com/lmlblogs/p/8732342.html<br>
+如有侵权，请联系我删除😀。</p>
+<pre><code>            &lt;/div&gt;
+            &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+          &lt;/section&gt;
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mozilla 支持“开放冠状病毒协议”：为了战胜 COVID-19 开放使用知识产权]]></title>
+        <id>https://Jason-summer.github.io/post/mozilla-zhi-chi-kai-fang-guan-zhuang-bing-du-xie-yi-wei-liao-zhan-sheng-covid-19-kai-fang-shi-yong-zhi-shi-chan-quan/</id>
+        <link href="https://Jason-summer.github.io/post/mozilla-zhi-chi-kai-fang-guan-zhuang-bing-du-xie-yi-wei-liao-zhan-sheng-covid-19-kai-fang-shi-yong-zhi-shi-chan-quan/">
+        </link>
+        <updated>2021-09-01T04:03:16.000Z</updated>
+        <summary type="html"><![CDATA[<section class="post-content">
+                <div class="text">
+                  <p>本文翻译自 Mozilla Blog，文章原题为 <a href="https://blog.mozilla.org/blog/2020/04/07/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19/">Mozilla Supports the Open COVID Pledge: Making Intellectual  Property Freely Available for the Fight Against COVID-19</a>，原文作者 <a href="https://blog.mozilla.org/blog/author/akeatingmozilla-com/">Amy Keating</a> 发表于 April 7, 2020.</p>
+]]></summary>
+        <content type="html"><![CDATA[<section class="post-content">
+                <div class="text">
+                  <p>本文翻译自 Mozilla Blog，文章原题为 <a href="https://blog.mozilla.org/blog/2020/04/07/mozilla-supports-the-open-covid-pledge-making-intellectual-property-freely-available-for-the-fight-against-covid-19/">Mozilla Supports the Open COVID Pledge: Making Intellectual  Property Freely Available for the Fight Against COVID-19</a>，原文作者 <a href="https://blog.mozilla.org/blog/author/akeatingmozilla-com/">Amy Keating</a> 发表于 April 7, 2020.</p>
+<!-- more -->
+<blockquote>
+<p>COVID-19 has afflicted more than one million people worldwide,  and the number continues to climb every day. However long the pandemic  lasts, we know that scientists and others’ ability to share work toward solutions is critical to ending it.</p>
+</blockquote>
+<p>COVID-19 已经影响到全世界至少一百万人，并且这个数字还在逐日增长。不管这场流行病还要持续多久，我们都知道科学家和社会各界人士共享解决方案对于结束这一切来说不可或缺。</p>
+<blockquote>
+<p>The<a href="https://opencovidpledge.org/"> Open COVID Pledge</a>, a  project of an international coalition of scientists, technologists, and legal experts, has been created to address this issue. The project calls on companies, universities and other organizations to make their  intellectual property (IP) temporarily available free of charge for use in ending the pandemic and minimizing its impact.</p>
+</blockquote>
+<p><a href="https://opencovidpledge.org/">开放冠状病毒协议</a>——科学家、科研工作者和法律专家国际联盟成立这个项目以便解决这个问题。这个项目呼吁各公司、大学和其他组织暂时免费开放它们的知识产权供大众使用以结束疫情和减轻疫情影响。</p>
+<blockquote>
+<p>Mozilla is grateful to the organizers of and contributors to the Open COVID Pledge, and is proud to support this critical effort. We are an  organization dedicated to keeping the internet open and accessible to  all. We support the open exchange of ideas, technologies, and resources  in our day-to-day work and recognize the power of removing barriers in this time of crisis to preserve the social fabric and save lives.</p>
+</blockquote>
+<p>Mozilla 十分感谢那些参与到“开放冠状病毒协议”的组织者和贡献者，并且非常荣幸能够支持这个攻坚力量。我们是一个致力于营造开放的、人人可访问的互联网的组织，我们支持在日常生活中开放地交换想法、技术和资源，赞扬那些在这危难关头为了维护社会秩序、拯救生命而放下隔阂的力量。</p>
+<blockquote>
+<p>We invite others to join us in supporting this important initiative to help combat the spread of COVID-19.</p>
+</blockquote>
+<p>我们邀请其他人加入我们，支持这个抑制 COVID-19 传播的重要倡议。</p>
+<pre><code>            &lt;/div&gt;
+            &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+          &lt;/section&gt;
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[对事物的探索，一览清单]]></title>
+        <id>https://Jason-summer.github.io/post/dui-shi-wu-de-tan-suo-yi-lan-qing-dan/</id>
+        <link href="https://Jason-summer.github.io/post/dui-shi-wu-de-tan-suo-yi-lan-qing-dan/">
+        </link>
+        <updated>2021-09-01T04:01:28.000Z</updated>
+        <content type="html"><![CDATA[<section class="post-content">
+                <div class="text">
+                  <p>百度云播视频的本质：一段段十秒钟的视频，链接的形式如下：</p>
+<pre><code>https://v1.baidupcs.com/video/netdisk-videotran-yangquan/3a690b23a163d9d29606f2ece21e2f93_8242_1_ts/e07fb2a0b8972fcc2b6242565151f00f?ts_size=13703362&amp;app_id=250528&amp;csl=130&amp;dp-logid=2195574312860443459&amp;fn=%E6%A0%A1%E5%9B%AD%E5%93%B2%E5%AD%A6%E5%AE%B6.Merli.T01C12.720p.WEB-DL.x264.%E4%B8%AD%E8%A5%BF%E5%AD%97%E5%B9%95-%E6%A0%91%E5%B1%8B%E5%AD%97%E5%B9%95%E7%BB%84.mp4&amp;iv=0&amp;logid=2195574312860443459&amp;ouk=3509197131&amp;r=325391864&amp;size=338328138&amp;sta_cs=304&amp;sta_dt=video&amp;sta_dx=322&amp;time=1586015951&amp;to=hs01&amp;tot=cn1Wc&amp;uo=ct&amp;uva=1877952824&amp;vuk=3509197131&amp;etag=e07fb2a0b8972fcc2b6242565151f00f&amp;fid=205b15c79e4c4009221978293aeb353f-3509197131&amp;len=504163&amp;range=1680281-2184443&amp;region=yangquan&amp;resv4=&amp;sign=BOUTHNF-F3530edecde9cd71b79378b290804a96-RWYM%252BPg31cNScaaj%252F9S8QUpasJ4%253D&amp;xcode=97c82546f60ef8b23148a4b9a843048e62c25d1d5d6dfef4cb01a250c4fc01bf0fa240323ab9be1bcda7141b00f8fd339a7e3ac4ae9d7ad8&amp;xv=6&amp;need_suf=&amp;pmk=&amp;by=my-streaming
+</code></pre>
+<pre><code>            &lt;/div&gt;
+            &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+          &lt;/section&gt;
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[翻译训练 2020/4/12]]></title>
+        <id>https://Jason-summer.github.io/post/fan-yi-xun-lian-2020412/</id>
+        <link href="https://Jason-summer.github.io/post/fan-yi-xun-lian-2020412/">
+        </link>
+        <updated>2021-09-01T04:01:10.000Z</updated>
+        <content type="html"><![CDATA[<p>翻译训练 2020/4/12<br>
+Torches (TV size) - Aimer (エメ)<br>
+词：aimerrhythm<br>
+曲：飛内将大<br>
+编曲：玉井健二/飛内将大</p>
+<p>It's just like a burning torch in the storm （就像风暴中燃烧的火炬）<br>
+Like a little flower blooming in the home （就像家乡绽放的花苞）<br>
+強く確かな意志を掲げ<br>
+ときに優しくあればいい<br>
+A misty moon （朦胧的月）<br>
+I'm missing you （失去的你）<br>
+滲む景色に膝を抱き<br>
+胸をはせる時<br>
+Listen to me （聆听着我）<br>
+Sail away again again （再次起航）<br>
+未開の海に 海路を照らす願い<br>
+繋いだ声は<br>
+答えのない世界へと 帆を揺らす<br>
+You're not alone （你并非孤身一人）<br>
+ただ 荒波を行け<br>
+その闇を抜け</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[建立个人博客的探索历程]]></title>
+        <id>https://Jason-summer.github.io/post/jian-li-ge-ren-bo-ke-de-tan-suo-li-cheng/</id>
+        <link href="https://Jason-summer.github.io/post/jian-li-ge-ren-bo-ke-de-tan-suo-li-cheng/">
+        </link>
+        <updated>2021-09-01T04:00:26.000Z</updated>
+        <content type="html"><![CDATA[<article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <p>先声明一下时间：今天是2020/4/28，我把之前零碎的内容合并在这里。</p>
+<p>[告示]评论系统已经恢复正常<br>
+建立日期：2020-04-03 14:45:42</p>
+<blockquote>
+<p>之前其实是 Gitalk 我没搞好嘿嘿嘿🤭。</p>
+<p>我认为应该是之前配置不正确，主要就是大小写没注意，然后就疯狂更改 GitHub 和 Gridea 的配置，可能是访问过于频繁导致被限流，让我等一段时间再访问吧。</p>
+<p>参考文档：……</p>
+<p>草字头，我尝试着发评论，又是 Error: Network Error. 不过刚刚我是登陆上 GitHub 了的，现在又被顶下来了，可能还是网络或者访问流量的问题。</p>
+<p>似乎又行了，又是那个说什么让我登录初始化 issue，然后我已登陆就上的去了。好吧😀</p>
+</blockquote>
+<p>评论区的内容：</p>
+<blockquote>
+<p>Jason-summer commented 25 days ago<br>
+https://jason-summer.github.io/post/review-system-is-stopping/</p>
+<p>之前其实是 Gitalk 我没搞好嘿嘿嘿🤭。<br>
+我认为应该是之前配置不正确，主要就是大小写没注意，然后就疯狂更改 GitHub 和 Gridea 的配置，可能是访问过于频繁导致被限流，让我等一段时间再访问吧。<br>
+参考文档：……<br>
+草字头，我尝试...</p>
+<p>@Jason-summer Jason-summer added Gitalk /post/review-system-is-stopping/ labels 25 days ago<br>
+@Jason-summer</p>
+<p>Owner<br>
+Author<br>
+Jason-summer commented 25 days ago<br>
+迷惑……</p>
+<p>@Jason-summer</p>
+<p>Owner<br>
+Author<br>
+Jason-summer commented 25 days ago<br>
+果然第一条评论只能靠偶然，预先准备好什么的不存在。不过还是得说：第一条评论当然得是我自己发的啦~~~~~😀</p>
+<p>@Jason-summer</p>
+<p>Owner<br>
+Author<br>
+Jason-summer commented 24 days ago<br>
+我明白了，估计是 GitHub（或者说网络环境）那边的问题，因为墙有些高。</p>
+</blockquote>
+<p>部署豆瓣电影<br>
+建立时间：今天</p>
+<blockquote>
+<p>使用 Gridea 的 Breek 主题，需要在网站结构中添加 /movies 和 /books 支页。同样，该主题的友链设置 /friends 。</p>
+</blockquote>
+<pre><code>            &lt;/div&gt;
+            &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+          &lt;/section&gt;
+        &lt;/article&gt;
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://Jason-summer.github.io/post/hello-gridea/</id>
+        <link href="https://Jason-summer.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
